@@ -83,6 +83,18 @@ class AnalysisTests(unittest.TestCase):
         self.assertIsNone(s["channels"]["HDF"]["band_share_pct"]["4-8"])
         self.assertIsNone(s["narrow"]["longest"])
 
+    def test_different_partial_cannot_replace_evidence(self):
+        old,_=analyze(Stream([self.trace(seconds=20)]),"HDF",0,60)
+        new,_=analyze(Stream([self.trace(start=25,seconds=30)]),"HDF",0,60)
+        with self.assertRaises(ValueError):
+            merge_rows(old,new)
+
+    def test_same_partial_counts_from_new_source_need_reconciliation(self):
+        old,_=analyze(Stream([self.trace(seconds=20)]),"HDF",0,60)
+        new=[dict(old[0],source_ids="different-waveform")]
+        with self.assertRaises(ValueError):
+            merge_rows(old,new)
+
     def test_unavailable_feed_preserves_direct_archive(self):
         rows,_=analyze(Stream([self.trace()]),"HDF",0,60)
         sources=[dict(source_id="test",identities=["AM.R19BB.00.HDF"],

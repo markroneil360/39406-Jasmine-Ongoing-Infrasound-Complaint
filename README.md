@@ -53,7 +53,7 @@ The daily Perplexity task runs at **07:00 America/New_York**, attempts the last 
 - `events.json` / `events.csv`: consecutive run registers; intervals are start-inclusive/end-exclusive.
 - `manifest.json`: SHA-256 values for the public evidence files.
 
-Partial rows are not combined from summaries. A newer complete waveform-derived minute can replace a partial observation. Duplicate complete minutes must agree; otherwise the update stops rather than overwriting accepted evidence.
+Partial rows are not combined from summaries. Differing partial observations require reconciliation from the original waveforms; they cannot silently replace one another based on sample count. A newer complete waveform-derived minute can replace a partial observation. Duplicate complete minutes must agree; otherwise the update stops rather than overwriting accepted evidence.
 
 ## Deploy and rollback
 

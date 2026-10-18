@@ -189,8 +189,14 @@ def merge_rows(old, new):
                 if str(previous[field]) != str(r[field]):
                     raise ValueError(f"Conflicting accepted minute {key}: {field}")
             r["source_ids"]=";".join(sorted(set(previous["source_ids"].split(";")+r["source_ids"].split(";"))))
+        elif previous and previous["quality"] in ("partial","conflict") and r["quality"] in ("partial","conflict"):
+            # Counts alone cannot prove subset/overlap identity for partials.
+            if (set(previous["source_ids"].split(";")) != set(r["source_ids"].split(";"))
+                    or any(str(previous[k]) != str(r[k]) for k in FIELDS[2:16])):
+                raise ValueError(f"Partial minute {key} needs original-waveform reconciliation; previous evidence retained")
+            r["source_ids"]=";".join(sorted(set(previous["source_ids"].split(";")+r["source_ids"].split(";"))))
         elif previous and int(previous["valid_samples"]) >= int(r["valid_samples"]):
-            continue  # Never sum independent partials without their waveforms.
+            continue  # A complete minute already accounts for all sample ticks.
         records[key]=r
     return sorted(records.values(),key=lambda r:(r["minute_utc"],r["channel"]))
 
