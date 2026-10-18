@@ -1,7 +1,7 @@
 {
   "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
-  "generated_utc": "2026-10-18T00:06:21.635391Z",
+  "generated_utc": "2026-10-18T11:00:32.031481Z",
   "windows": {
     "all": {
       "start": "2026-10-10T01:31:00Z",
@@ -81,8 +81,8 @@
       }
     },
     "24h": {
-      "start": "2026-10-17T00:06:00Z",
-      "end": "2026-10-18T00:06:00Z",
+      "start": "2026-10-17T11:00:00Z",
+      "end": "2026-10-18T11:00:00Z",
       "channels": {
         "HDF": {
           "documented_seconds": 93.26,
@@ -138,49 +138,49 @@
       }
     },
     "7d": {
-      "start": "2026-10-11T00:06:00Z",
-      "end": "2026-10-18T00:06:00Z",
+      "start": "2026-10-11T11:00:00Z",
+      "end": "2026-10-18T11:00:00Z",
       "channels": {
         "HDF": {
-          "documented_seconds": 484487.39,
-          "classified_minutes": 8016,
+          "documented_seconds": 445247.39,
+          "classified_minutes": 7362,
           "partial_minutes": 90,
           "flatline_minutes": 0,
-          "missing_seconds": 120312.61,
-          "classified_share_pct": 99.2719,
-          "sample_coverage_pct": 80.107,
+          "missing_seconds": 159552.61,
+          "classified_share_pct": 99.2078,
+          "sample_coverage_pct": 73.6189,
           "band_counts": {
-            "1-4": 7996,
-            "4-8": 20,
+            "1-4": 7343,
+            "4-8": 19,
             "8-16": 0,
             "16-20": 0
           },
           "band_share_pct": {
-            "1-4": 99.7505,
-            "4-8": 0.2495,
+            "1-4": 99.7419,
+            "4-8": 0.2581,
             "8-16": 0.0,
             "16-20": 0.0
           }
         },
         "EHZ": {
-          "documented_seconds": 484477.17,
-          "classified_minutes": 8018,
+          "documented_seconds": 445237.17,
+          "classified_minutes": 7364,
           "partial_minutes": 88,
           "flatline_minutes": 0,
-          "missing_seconds": 120322.83,
-          "classified_share_pct": 99.2988,
-          "sample_coverage_pct": 80.1054,
+          "missing_seconds": 159562.83,
+          "classified_share_pct": 99.237,
+          "sample_coverage_pct": 73.6173,
           "band_counts": {
             "1-4": 85,
-            "4-8": 51,
-            "8-16": 1446,
+            "4-8": 48,
+            "8-16": 795,
             "16-20": 6436
           },
           "band_share_pct": {
-            "1-4": 1.0601,
-            "4-8": 0.6361,
-            "8-16": 18.0344,
-            "16-20": 80.2694
+            "1-4": 1.1543,
+            "4-8": 0.6518,
+            "8-16": 10.7958,
+            "16-20": 87.3982
           }
         }
       },

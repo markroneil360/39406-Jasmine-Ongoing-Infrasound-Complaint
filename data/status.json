@@ -1,34 +1,35 @@
 {
-  "station": "AM.R19BB.00",
-  "generated_utc": "2026-10-18T00:06:21.635391Z",
-  "request_start": "2026-10-16T23:11:00Z",
-  "request_end": "2026-10-17T23:11:00Z",
-  "state": "Direct-device archive analyzed",
-  "note": "Uploaded recordings are analyzed independently of public-feed availability. Partial fragments remain documented; missing time is unknown.",
+  "state": "Public feed unavailable \u00b7 archive retained",
+  "note": "A feed check is not live connectivity. Verified uploaded history is retained even when the public feed is unavailable.",
+  "request_start": "2026-10-17T10:30:00Z",
+  "request_end": "2026-10-18T10:30:00Z",
+  "feed_attempt_utc": "2026-10-18T11:00:30.847438Z",
   "channels": [
     {
       "channel": "HDF",
-      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=HDF&start=2026-10-16T23:11:00Z&end=2026-10-17T23:11:00Z&format=miniseed",
+      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=HDF&start=2026-10-17T10:30:00Z&end=2026-10-18T10:30:00Z&format=miniseed",
       "complete_minutes": 0,
       "latest_sample_utc": null,
       "error": "No data returned (HTTP 204)"
     },
     {
       "channel": "EHZ",
-      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=EHZ&start=2026-10-16T23:11:00Z&end=2026-10-17T23:11:00Z&format=miniseed",
+      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=EHZ&start=2026-10-17T10:30:00Z&end=2026-10-18T10:30:00Z&format=miniseed",
       "complete_minutes": 0,
       "latest_sample_utc": null,
       "error": "No data returned (HTTP 204)"
     }
   ],
-  "archive_sha256": "74bd1a963d6bf1eb64a9011fdc55cdee84b88af4381138a7047e870157b48a05",
-  "last_ingestion_kind": "direct-device-upload",
+  "last_ingestion_kind": "public-fdsn",
+  "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "generated_utc": "2026-10-18T11:00:32.031481Z",
   "archive_start_utc": "2026-10-10T01:31:00Z",
   "archive_end_exclusive_utc": "2026-10-17T23:06:00Z",
   "latest_documented_samples": {
     "HDF": "2026-10-17T23:05:52.001000Z",
     "EHZ": "2026-10-17T23:05:33.321000Z"
   },
+  "archive_sha256": "74bd1a963d6bf1eb64a9011fdc55cdee84b88af4381138a7047e870157b48a05",
   "observations_sha256": "0fe20ce30a5225ce86b99e1424904e8c08c3eb6592ed3a288af43a5827b2b712"
 }
