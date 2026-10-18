@@ -1,0 +1,18 @@
+{
+  "station": "AM.R19BB.00",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "generated_utc": "2026-10-18T00:06:21.635391Z",
+  "numpy_version": "1.26.4",
+  "scipy_version": "1.14.1",
+  "files": {
+    "events.csv": "04c6b09008cf04a7b3cab9835b62b3523bfaa825e04cbbb3562724ac2e11823e",
+    "events.json": "6192b0132fd08b29cf514172e4725def0db72e7b81ab1458bdf942ecc0ad781b",
+    "ingestion-audit.json": "07021e487dbcee2d3a6a8852856ea2a584a51f4a4204fc22d987eae9b0697e23",
+    "minutes.csv": "74bd1a963d6bf1eb64a9011fdc55cdee84b88af4381138a7047e870157b48a05",
+    "observations.csv": "0fe20ce30a5225ce86b99e1424904e8c08c3eb6592ed3a288af43a5827b2b712",
+    "reference-audit.json": "50e049d1b7503d110f9ef54c8c7fc42817906e9e03b02ab4eaec3400a207a282",
+    "sources.json": "c067ac304b8e325378c4a4ebb34fe9b67f99fea63826ba518e8ee448e7dd6955",
+    "status.json": "26f4d86c1cf11ecee4ee6cfa6ca2357225f00afccf7c37ac2db3ee3c5beeffc8",
+    "summary.json": "fa3c49c91ec4970ce00a432bc134766cb37896b8fcfa4b68efa224fa20bfcf47"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "station": "AM.R19BB.00",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "reference_url": "https://github.com/markroneil360/ongoing-unit-2709/blob/51ddb7d10925da9ad245595ae104f3bfcb419232/tools/refresh_4_8_10min_current.py",
+  "source_ids": [
+    "46fdd52e67ce41d13471f2cafc2a3a51c0815df7a1f4a80c1428b78cac49769f",
+    "eba973af99a09c7d0640afdbb989526e68c16bcf2c5101d465d8207711114c76",
+    "218d482c5f50a91f4905f57e3c0b34335e4bde2b53c69059dd3aa684a6d5c0c5",
+    "8111595facf5813c92d6fa82f333edb3d056b4db314120eba42e7cfb4837e488",
+    "14063a93e42a7087616e1b75f98f5f7113528a47f8598b1cf8545395dc632846",
+    "857a38cb608f336494d8f072d004452c4b784fe803beb446db8ffd6eafc60f5b",
+    "17007cdf22d52c421212110174ea995fb422dd65e86f74f595fd04a2f89b104a",
+    "a65f257b27504a45b5c386d5b22c152bcbd3a00d24a9b399673fb18d6bf4747e"
+  ],
+  "tested_complete_hdf_minutes": 9369,
+  "matching_band_classifications": 9369,
+  "bounded_native_merge_minutes": [
+    "2026-10-11T00:00:00Z",
+    "2026-10-12T00:00:00Z",
+    "2026-10-13T00:00:00Z",
+    "2026-10-14T00:00:00Z",
+    "2026-10-15T00:00:00Z",
+    "2026-10-16T00:00:00Z"
+  ],
+  "differences": [],
+  "all_classifications_match": true,
+  "scope": "Independent native-trace extraction and exact Detroit complete/classify functions. No calibration or source attribution."
+}

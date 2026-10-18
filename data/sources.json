@@ -1,0 +1,276 @@
+{
+  "station": "AM.R19BB.00",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "sources": [
+    {
+      "source_id": "46fdd52e67ce41d13471f2cafc2a3a51c0815df7a1f4a80c1428b78cac49769f",
+      "name": "AM.R19BB.00.HDF.D.2026.283",
+      "source_kind": "direct-device-upload",
+      "bytes": 10886144,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8091386,
+      "first_sample_utc": "2026-10-10T01:31:15.078999Z",
+      "last_sample_utc": "2026-10-11T00:00:00.063999Z",
+      "traces": 2,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "eba973af99a09c7d0640afdbb989526e68c16bcf2c5101d465d8207711114c76",
+      "name": "AM.R19BB.00.HDF.D.2026.284",
+      "source_kind": "direct-device-upload",
+      "bytes": 10920448,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8597077,
+      "first_sample_utc": "2026-10-11T00:00:00.073999Z",
+      "last_sample_utc": "2026-10-12T00:00:02.980000Z",
+      "traces": 2,
+      "decode_warnings": [
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9487872 to 9487999.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488000 to 9488127.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488128 to 9488255.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488256 to 9488383.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488384 to 9488511.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488512 to 9488639.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488640 to 9488767.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488768 to 9488895.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9488896 to 9489023.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489024 to 9489151.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489152 to 9489279.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489280 to 9489407.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489408 to 9489535.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489536 to 9489663.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489664 to 9489791.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489792 to 9489919.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9489920 to 9490047.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9490048 to 9490175.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9490176 to 9490303.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 9490304 to 9490431."
+      ]
+    },
+    {
+      "source_id": "218d482c5f50a91f4905f57e3c0b34335e4bde2b53c69059dd3aa684a6d5c0c5",
+      "name": "AM.R19BB.00.HDF.D.2026.285",
+      "source_kind": "direct-device-upload",
+      "bytes": 10854912,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8640036,
+      "first_sample_utc": "2026-10-12T00:00:02.990000Z",
+      "last_sample_utc": "2026-10-13T00:00:03.340000Z",
+      "traces": 1,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "8111595facf5813c92d6fa82f333edb3d056b4db314120eba42e7cfb4837e488",
+      "name": "AM.R19BB.00.HDF.D.2026.286",
+      "source_kind": "direct-device-upload",
+      "bytes": 10854400,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8640035,
+      "first_sample_utc": "2026-10-13T00:00:03.349999Z",
+      "last_sample_utc": "2026-10-14T00:00:03.689999Z",
+      "traces": 1,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "14063a93e42a7087616e1b75f98f5f7113528a47f8598b1cf8545395dc632846",
+      "name": "AM.R19BB.00.HDF.D.2026.287",
+      "source_kind": "direct-device-upload",
+      "bytes": 10652160,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8476681,
+      "first_sample_utc": "2026-10-14T00:00:03.700000Z",
+      "last_sample_utc": "2026-10-15T00:00:03.746999Z",
+      "traces": 12,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "857a38cb608f336494d8f072d004452c4b784fe803beb446db8ffd6eafc60f5b",
+      "name": "AM.R19BB.00.HDF.D.2026.288",
+      "source_kind": "direct-device-upload",
+      "bytes": 10121216,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8045911,
+      "first_sample_utc": "2026-10-15T00:00:03.756999Z",
+      "last_sample_utc": "2026-10-16T00:00:01.055999Z",
+      "traces": 48,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "17007cdf22d52c421212110174ea995fb422dd65e86f74f595fd04a2f89b104a",
+      "name": "AM.R19BB.00.HDF.D.2026.289",
+      "source_kind": "direct-device-upload",
+      "bytes": 7650304,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 6075686,
+      "first_sample_utc": "2026-10-16T00:00:01.065999Z",
+      "last_sample_utc": "2026-10-16T17:54:37.029000Z",
+      "traces": 48,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "a65f257b27504a45b5c386d5b22c152bcbd3a00d24a9b399673fb18d6bf4747e",
+      "name": "AM.R19BB.00.HDF.D.2026.290",
+      "source_kind": "direct-device-upload",
+      "bytes": 11776,
+      "identities": [
+        "AM.R19BB.00.HDF"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 9326,
+      "first_sample_utc": "2026-10-17T23:04:18.751000Z",
+      "last_sample_utc": "2026-10-17T23:05:52.001000Z",
+      "traces": 1,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "47d19dfc27da12831965f9a4e12ce7e07c273ef3619334de00cb5fc31191990a",
+      "name": "AM.R19BB.00.EHZ.D.2026.283",
+      "source_kind": "direct-device-upload",
+      "bytes": 20243456,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8091421,
+      "first_sample_utc": "2026-10-10T01:31:15.078999Z",
+      "last_sample_utc": "2026-10-11T00:00:00.053999Z",
+      "traces": 2,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "094fa3cfdd35b1ae352f25fcaa24b5d845949161cae7a5ef4c849462e448947d",
+      "name": "AM.R19BB.00.EHZ.D.2026.284",
+      "source_kind": "direct-device-upload",
+      "bytes": 21670400,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8597243,
+      "first_sample_utc": "2026-10-11T00:00:00.063999Z",
+      "last_sample_utc": "2026-10-12T00:00:01.660000Z",
+      "traces": 4,
+      "decode_warnings": [
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865152 to 18865279.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865280 to 18865407.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865408 to 18865535.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865536 to 18865663.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865664 to 18865791.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865792 to 18865919.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18865920 to 18866047.",
+        "readMSEEDBuffer(): Not a SEED record. Will skip bytes 18866048 to 18866175."
+      ]
+    },
+    {
+      "source_id": "946a86c0aecd7b2e4c747b9a46e06b79cbfad2e3f79fcf356b18edfb17d4d2b0",
+      "name": "AM.R19BB.00.EHZ.D.2026.285",
+      "source_kind": "direct-device-upload",
+      "bytes": 21296640,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8639956,
+      "first_sample_utc": "2026-10-12T00:00:01.670000Z",
+      "last_sample_utc": "2026-10-13T00:00:01.220000Z",
+      "traces": 1,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "ae3b5b1bb4862f765c6be3b76c4225e836e3c61a4ebd9b24d4e93c3021f4e91c",
+      "name": "AM.R19BB.00.EHZ.D.2026.286",
+      "source_kind": "direct-device-upload",
+      "bytes": 21420032,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8640003,
+      "first_sample_utc": "2026-10-13T00:00:01.229999Z",
+      "last_sample_utc": "2026-10-14T00:00:01.249999Z",
+      "traces": 1,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "2cab653835061754ce1a02a95a4acb1cdc5fce3939ec7eeb193cca1b6e8086e5",
+      "name": "AM.R19BB.00.EHZ.D.2026.287",
+      "source_kind": "direct-device-upload",
+      "bytes": 20940288,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8476695,
+      "first_sample_utc": "2026-10-14T00:00:01.260000Z",
+      "last_sample_utc": "2026-10-15T00:00:00.476999Z",
+      "traces": 9,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "5feccdfc7281699de469113f17cb7ad9768cd3f70e8cfa7a62d73e185bd898d9",
+      "name": "AM.R19BB.00.EHZ.D.2026.288",
+      "source_kind": "direct-device-upload",
+      "bytes": 19939328,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 8046634,
+      "first_sample_utc": "2026-10-15T00:00:00.486999Z",
+      "last_sample_utc": "2026-10-16T00:00:01.605999Z",
+      "traces": 35,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "216938a8322710a4c3fe9e36e4d4611b7adb74699e39b49928d5dd55595cadd7",
+      "name": "AM.R19BB.00.EHZ.D.2026.289",
+      "source_kind": "direct-device-upload",
+      "bytes": 15121920,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 6075970,
+      "first_sample_utc": "2026-10-16T00:00:01.615999Z",
+      "last_sample_utc": "2026-10-16T17:54:38.859000Z",
+      "traces": 46,
+      "decode_warnings": []
+    },
+    {
+      "source_id": "02392056654ddd76268ee3d6daa2f9adf6122add5ce934f244a905bf1e5bf42a",
+      "name": "AM.R19BB.00.EHZ.D.2026.290",
+      "source_kind": "direct-device-upload",
+      "bytes": 17920,
+      "identities": [
+        "AM.R19BB.00.EHZ"
+      ],
+      "sample_rate_hz": 100,
+      "decoded_samples": 7212,
+      "first_sample_utc": "2026-10-17T23:04:21.211000Z",
+      "last_sample_utc": "2026-10-17T23:05:33.321000Z",
+      "traces": 1,
+      "decode_warnings": []
+    }
+  ]
+}

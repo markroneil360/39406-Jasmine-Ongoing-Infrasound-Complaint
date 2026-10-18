@@ -1,10 +1,10 @@
 {
   "station": "AM.R19BB.00",
-  "generated_utc": "2026-10-17T23:41:10.502551Z",
+  "generated_utc": "2026-10-18T00:06:21.635391Z",
   "request_start": "2026-10-16T23:11:00Z",
   "request_end": "2026-10-17T23:11:00Z",
-  "state": "Current acquisition unconfirmed",
-  "note": "Daily archive check, not live connectivity. Missing time is unknown. Allow 30 minutes for archive lag.",
+  "state": "Direct-device archive analyzed",
+  "note": "Uploaded recordings are analyzed independently of public-feed availability. Partial fragments remain documented; missing time is unknown.",
   "channels": [
     {
       "channel": "HDF",
@@ -21,5 +21,14 @@
       "error": "No data returned (HTTP 204)"
     }
   ],
-  "archive_sha256": "e01a4b8f4e39c99b9e3ab94d0c460a0b105f7ed01edb18c28290652e18e9f51c"
+  "archive_sha256": "74bd1a963d6bf1eb64a9011fdc55cdee84b88af4381138a7047e870157b48a05",
+  "last_ingestion_kind": "direct-device-upload",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "archive_start_utc": "2026-10-10T01:31:00Z",
+  "archive_end_exclusive_utc": "2026-10-17T23:06:00Z",
+  "latest_documented_samples": {
+    "HDF": "2026-10-17T23:05:52.001000Z",
+    "EHZ": "2026-10-17T23:05:33.321000Z"
+  },
+  "observations_sha256": "0fe20ce30a5225ce86b99e1424904e8c08c3eb6592ed3a288af43a5827b2b712"
 }

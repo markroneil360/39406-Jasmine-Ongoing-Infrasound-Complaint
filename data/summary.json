@@ -1,236 +1,3668 @@
 {
   "station": "AM.R19BB.00",
-  "generated_utc": "2026-10-17T23:41:10.502551Z",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "generated_utc": "2026-10-18T00:06:21.635391Z",
   "windows": {
-    "24h": {
-      "start": "2026-10-16T23:11:00Z",
-      "end": "2026-10-17T23:11:00Z",
+    "all": {
+      "start": "2026-10-10T01:31:00Z",
+      "end": "2026-10-17T23:06:00Z",
       "channels": {
         "HDF": {
-          "complete_minutes": 0,
-          "expected_minutes": 1440,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
+          "documented_seconds": 565761.18,
+          "classified_minutes": 9369,
+          "partial_minutes": 92,
+          "flatline_minutes": 0,
+          "missing_seconds": 116738.82,
+          "classified_share_pct": 99.3599,
+          "sample_coverage_pct": 82.8954,
+          "band_counts": {
+            "1-4": 9347,
+            "4-8": 22,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 99.7652,
+            "4-8": 0.2348,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
         },
         "EHZ": {
-          "complete_minutes": 0,
-          "expected_minutes": 1440,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
+          "documented_seconds": 565751.32,
+          "classified_minutes": 9371,
+          "partial_minutes": 90,
+          "flatline_minutes": 0,
+          "missing_seconds": 116748.68,
+          "classified_share_pct": 99.3829,
+          "sample_coverage_pct": 82.894,
+          "band_counts": {
+            "1-4": 85,
+            "4-8": 54,
+            "8-16": 2796,
+            "16-20": 6436
+          },
+          "band_share_pct": {
+            "1-4": 0.9071,
+            "4-8": 0.5762,
+            "8-16": 29.8367,
+            "16-20": 68.68
+          }
         }
+      },
+      "narrow": {
+        "events_ge_10": 1,
+        "minutes_ge_10": 10,
+        "longest": {
+          "start_utc": "2026-10-11T20:21:00Z",
+          "end_exclusive_utc": "2026-10-11T20:31:00Z",
+          "minutes": 10,
+          "peak_min_hz": 5.0,
+          "peak_max_hz": 5.125,
+          "peak_median_hz": 5.125,
+          "dominant_bands": {
+            "4-8": 10
+          }
+        }
+      },
+      "wide": {
+        "events_ge_10": 10,
+        "longest": {
+          "start_utc": "2026-10-11T20:51:00Z",
+          "end_exclusive_utc": "2026-10-14T21:41:00Z",
+          "minutes": 4370,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 3.125,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 4370
+          }
+        }
+      }
+    },
+    "24h": {
+      "start": "2026-10-17T00:06:00Z",
+      "end": "2026-10-18T00:06:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 93.26,
+          "classified_minutes": 0,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 86306.74,
+          "classified_share_pct": 0.0,
+          "sample_coverage_pct": 0.1079,
+          "band_counts": {
+            "1-4": 0,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": null,
+            "4-8": null,
+            "8-16": null,
+            "16-20": null
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 72.12,
+          "classified_minutes": 0,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 86327.88,
+          "classified_share_pct": 0.0,
+          "sample_coverage_pct": 0.0835,
+          "band_counts": {
+            "1-4": 0,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": null,
+            "4-8": null,
+            "8-16": null,
+            "16-20": null
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 0,
+        "longest": null
       }
     },
     "7d": {
-      "start": "2026-10-10T23:11:00Z",
-      "end": "2026-10-17T23:11:00Z",
+      "start": "2026-10-11T00:06:00Z",
+      "end": "2026-10-18T00:06:00Z",
       "channels": {
         "HDF": {
-          "complete_minutes": 0,
-          "expected_minutes": 10080,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
+          "documented_seconds": 484487.39,
+          "classified_minutes": 8016,
+          "partial_minutes": 90,
+          "flatline_minutes": 0,
+          "missing_seconds": 120312.61,
+          "classified_share_pct": 99.2719,
+          "sample_coverage_pct": 80.107,
+          "band_counts": {
+            "1-4": 7996,
+            "4-8": 20,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 99.7505,
+            "4-8": 0.2495,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
         },
         "EHZ": {
-          "complete_minutes": 0,
-          "expected_minutes": 10080,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
+          "documented_seconds": 484477.17,
+          "classified_minutes": 8018,
+          "partial_minutes": 88,
+          "flatline_minutes": 0,
+          "missing_seconds": 120322.83,
+          "classified_share_pct": 99.2988,
+          "sample_coverage_pct": 80.1054,
+          "band_counts": {
+            "1-4": 85,
+            "4-8": 51,
+            "8-16": 1446,
+            "16-20": 6436
+          },
+          "band_share_pct": {
+            "1-4": 1.0601,
+            "4-8": 0.6361,
+            "8-16": 18.0344,
+            "16-20": 80.2694
+          }
         }
-      }
-    },
-    "all": {
-      "start": "2026-10-16T23:11:00Z",
-      "end": "2026-10-17T23:11:00Z",
-      "channels": {
-        "HDF": {
-          "complete_minutes": 0,
-          "expected_minutes": 1440,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
-        },
-        "EHZ": {
-          "complete_minutes": 0,
-          "expected_minutes": 1440,
-          "coverage_pct": 0.0,
-          "band_minutes": 0,
-          "longest_run_minutes": 0
+      },
+      "narrow": {
+        "events_ge_10": 1,
+        "minutes_ge_10": 10,
+        "longest": {
+          "start_utc": "2026-10-11T20:21:00Z",
+          "end_exclusive_utc": "2026-10-11T20:31:00Z",
+          "minutes": 10,
+          "peak_min_hz": 5.0,
+          "peak_max_hz": 5.125,
+          "peak_median_hz": 5.125,
+          "dominant_bands": {
+            "4-8": 10
+          }
+        }
+      },
+      "wide": {
+        "events_ge_10": 9,
+        "longest": {
+          "start_utc": "2026-10-11T20:51:00Z",
+          "end_exclusive_utc": "2026-10-14T21:41:00Z",
+          "minutes": 4370,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 3.125,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 4370
+          }
         }
       }
     }
   },
+  "days": [
+    {
+      "start": "2026-10-10T00:00:00Z",
+      "end": "2026-10-11T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 80913.79,
+          "classified_minutes": 1347,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 5486.21,
+          "classified_share_pct": 99.8841,
+          "sample_coverage_pct": 93.6502,
+          "band_counts": {
+            "1-4": 1345,
+            "4-8": 2,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 99.8515,
+            "4-8": 0.1485,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 80914.15,
+          "classified_minutes": 1347,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 5485.85,
+          "classified_share_pct": 99.8836,
+          "sample_coverage_pct": 93.6506,
+          "band_counts": {
+            "1-4": 0,
+            "4-8": 3,
+            "8-16": 1344,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 0.0,
+            "4-8": 0.2227,
+            "8-16": 99.7773,
+            "16-20": 0.0
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": {
+          "start_utc": "2026-10-10T16:52:00Z",
+          "end_exclusive_utc": "2026-10-10T16:53:00Z",
+          "minutes": 1,
+          "peak_min_hz": 5.5,
+          "peak_max_hz": 5.5,
+          "peak_median_hz": 5.5,
+          "dominant_bands": {
+            "4-8": 1
+          }
+        }
+      },
+      "wide": {
+        "events_ge_10": 2,
+        "longest": {
+          "start_utc": "2026-10-10T03:04:00Z",
+          "end_exclusive_utc": "2026-10-11T00:00:00Z",
+          "minutes": 1256,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 12.5,
+          "peak_median_hz": 5.625,
+          "dominant_bands": {
+            "1-4": 1254,
+            "4-8": 2
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T00:00:00Z",
+      "end": "2026-10-12T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 85967.85,
+          "classified_minutes": 1432,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 432.15,
+          "classified_share_pct": 99.9443,
+          "sample_coverage_pct": 99.4998,
+          "band_counts": {
+            "1-4": 1412,
+            "4-8": 20,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 98.6034,
+            "4-8": 1.3966,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 85970.8,
+          "classified_minutes": 1430,
+          "partial_minutes": 4,
+          "flatline_minutes": 0,
+          "missing_seconds": 429.2,
+          "classified_share_pct": 99.8013,
+          "sample_coverage_pct": 99.5032,
+          "band_counts": {
+            "1-4": 2,
+            "4-8": 9,
+            "8-16": 1234,
+            "16-20": 185
+          },
+          "band_share_pct": {
+            "1-4": 0.1399,
+            "4-8": 0.6294,
+            "8-16": 86.2937,
+            "16-20": 12.9371
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 1,
+        "minutes_ge_10": 10,
+        "longest": {
+          "start_utc": "2026-10-11T20:21:00Z",
+          "end_exclusive_utc": "2026-10-11T20:31:00Z",
+          "minutes": 10,
+          "peak_min_hz": 5.0,
+          "peak_max_hz": 5.125,
+          "peak_median_hz": 5.125,
+          "dominant_bands": {
+            "4-8": 10
+          }
+        }
+      },
+      "wide": {
+        "events_ge_10": 2,
+        "longest": {
+          "start_utc": "2026-10-11T00:00:00Z",
+          "end_exclusive_utc": "2026-10-11T20:43:00Z",
+          "minutes": 1243,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 11.375,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 1223,
+            "4-8": 20
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T00:00:00Z",
+      "end": "2026-10-13T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 86400.0,
+          "classified_minutes": 1440,
+          "partial_minutes": 0,
+          "flatline_minutes": 0,
+          "missing_seconds": 0,
+          "classified_share_pct": 100.0,
+          "sample_coverage_pct": 100.0,
+          "band_counts": {
+            "1-4": 1440,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 100.0,
+            "4-8": 0.0,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 86400.0,
+          "classified_minutes": 1440,
+          "partial_minutes": 0,
+          "flatline_minutes": 0,
+          "missing_seconds": 0,
+          "classified_share_pct": 100.0,
+          "sample_coverage_pct": 100.0,
+          "band_counts": {
+            "1-4": 26,
+            "4-8": 18,
+            "8-16": 54,
+            "16-20": 1342
+          },
+          "band_share_pct": {
+            "1-4": 1.8056,
+            "4-8": 1.25,
+            "8-16": 3.75,
+            "16-20": 93.1944
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 1,
+        "longest": {
+          "start_utc": "2026-10-12T00:00:00Z",
+          "end_exclusive_utc": "2026-10-13T00:00:00Z",
+          "minutes": 1440,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 3.125,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 1440
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T00:00:00Z",
+      "end": "2026-10-14T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 86400.0,
+          "classified_minutes": 1440,
+          "partial_minutes": 0,
+          "flatline_minutes": 0,
+          "missing_seconds": 0,
+          "classified_share_pct": 100.0,
+          "sample_coverage_pct": 100.0,
+          "band_counts": {
+            "1-4": 1440,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 100.0,
+            "4-8": 0.0,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 86400.0,
+          "classified_minutes": 1440,
+          "partial_minutes": 0,
+          "flatline_minutes": 0,
+          "missing_seconds": 0,
+          "classified_share_pct": 100.0,
+          "sample_coverage_pct": 100.0,
+          "band_counts": {
+            "1-4": 9,
+            "4-8": 4,
+            "8-16": 30,
+            "16-20": 1397
+          },
+          "band_share_pct": {
+            "1-4": 0.625,
+            "4-8": 0.2778,
+            "8-16": 2.0833,
+            "16-20": 97.0139
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 1,
+        "longest": {
+          "start_utc": "2026-10-13T00:00:00Z",
+          "end_exclusive_utc": "2026-10-14T00:00:00Z",
+          "minutes": 1440,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 2.625,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 1440
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T00:00:00Z",
+      "end": "2026-10-15T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 84766.75,
+          "classified_minutes": 1408,
+          "partial_minutes": 8,
+          "flatline_minutes": 0,
+          "missing_seconds": 1633.25,
+          "classified_share_pct": 99.6617,
+          "sample_coverage_pct": 98.1097,
+          "band_counts": {
+            "1-4": 1408,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 100.0,
+            "4-8": 0.0,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 84767.72,
+          "classified_minutes": 1408,
+          "partial_minutes": 8,
+          "flatline_minutes": 0,
+          "missing_seconds": 1632.28,
+          "classified_share_pct": 99.6606,
+          "sample_coverage_pct": 98.1108,
+          "band_counts": {
+            "1-4": 15,
+            "4-8": 2,
+            "8-16": 87,
+            "16-20": 1304
+          },
+          "band_share_pct": {
+            "1-4": 1.0653,
+            "4-8": 0.142,
+            "8-16": 6.179,
+            "16-20": 92.6136
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 3,
+        "longest": {
+          "start_utc": "2026-10-14T00:00:00Z",
+          "end_exclusive_utc": "2026-10-14T21:41:00Z",
+          "minutes": 1301,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 2.625,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 1301
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T00:00:00Z",
+      "end": "2026-10-16T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 80461.8,
+          "classified_minutes": 1317,
+          "partial_minutes": 35,
+          "flatline_minutes": 0,
+          "missing_seconds": 5938.2,
+          "classified_share_pct": 98.2081,
+          "sample_coverage_pct": 93.1271,
+          "band_counts": {
+            "1-4": 1317,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 100.0,
+            "4-8": 0.0,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 80465.21,
+          "classified_minutes": 1320,
+          "partial_minutes": 32,
+          "flatline_minutes": 0,
+          "missing_seconds": 5934.79,
+          "classified_share_pct": 98.4276,
+          "sample_coverage_pct": 93.131,
+          "band_counts": {
+            "1-4": 16,
+            "4-8": 12,
+            "8-16": 33,
+            "16-20": 1259
+          },
+          "band_share_pct": {
+            "1-4": 1.2121,
+            "4-8": 0.9091,
+            "8-16": 2.5,
+            "16-20": 95.3788
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 4,
+        "longest": {
+          "start_utc": "2026-10-15T14:23:00Z",
+          "end_exclusive_utc": "2026-10-16T00:00:00Z",
+          "minutes": 577,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 3.125,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 577
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T00:00:00Z",
+      "end": "2026-10-17T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 60757.73,
+          "classified_minutes": 985,
+          "partial_minutes": 43,
+          "flatline_minutes": 0,
+          "missing_seconds": 25642.27,
+          "classified_share_pct": 97.2716,
+          "sample_coverage_pct": 70.3214,
+          "band_counts": {
+            "1-4": 985,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": 100.0,
+            "4-8": 0.0,
+            "8-16": 0.0,
+            "16-20": 0.0
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 60761.32,
+          "classified_minutes": 986,
+          "partial_minutes": 42,
+          "flatline_minutes": 0,
+          "missing_seconds": 25638.68,
+          "classified_share_pct": 97.3646,
+          "sample_coverage_pct": 70.3256,
+          "band_counts": {
+            "1-4": 17,
+            "4-8": 6,
+            "8-16": 14,
+            "16-20": 949
+          },
+          "band_share_pct": {
+            "1-4": 1.7241,
+            "4-8": 0.6085,
+            "8-16": 1.4199,
+            "16-20": 96.2475
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 3,
+        "longest": {
+          "start_utc": "2026-10-16T05:34:00Z",
+          "end_exclusive_utc": "2026-10-16T17:27:00Z",
+          "minutes": 713,
+          "peak_min_hz": 1.0,
+          "peak_max_hz": 2.75,
+          "peak_median_hz": 1.125,
+          "dominant_bands": {
+            "1-4": 713
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-10-17T00:00:00Z",
+      "end": "2026-10-18T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 93.26,
+          "classified_minutes": 0,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 86306.74,
+          "classified_share_pct": 0.0,
+          "sample_coverage_pct": 0.1079,
+          "band_counts": {
+            "1-4": 0,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": null,
+            "4-8": null,
+            "8-16": null,
+            "16-20": null
+          }
+        },
+        "EHZ": {
+          "documented_seconds": 72.12,
+          "classified_minutes": 0,
+          "partial_minutes": 2,
+          "flatline_minutes": 0,
+          "missing_seconds": 86327.88,
+          "classified_share_pct": 0.0,
+          "sample_coverage_pct": 0.0835,
+          "band_counts": {
+            "1-4": 0,
+            "4-8": 0,
+            "8-16": 0,
+            "16-20": 0
+          },
+          "band_share_pct": {
+            "1-4": null,
+            "4-8": null,
+            "8-16": null,
+            "16-20": null
+          }
+        }
+      },
+      "narrow": {
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
+      },
+      "wide": {
+        "events_ge_10": 0,
+        "longest": null
+      }
+    }
+  ],
   "hours": [
+    {
+      "start": "2026-10-10T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 1724.92,
+          "rms_median_counts": 107.3925215,
+          "complete_minutes": 28
+        },
+        "EHZ": {
+          "documented_seconds": 1724.92,
+          "rms_median_counts": 3606.75747,
+          "complete_minutes": 28
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 96.408435,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3586.163746,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3588.87,
+          "rms_median_counts": 90.14368,
+          "complete_minutes": 59
+        },
+        "EHZ": {
+          "documented_seconds": 3589.23,
+          "rms_median_counts": 3691.070258,
+          "complete_minutes": 59
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 91.9452855,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2809.0722715,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 91.60677,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2655.0943644999998,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 92.289256,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2674.6720299999997,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 87.6793745,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2754.2425255,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 87.7526515,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3053.0198785000002,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 91.05290500000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3477.761869,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 90.69719,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3598.837113,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 87.69875350000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4175.701993000001,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 89.83982549999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4464.6988010000005,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 95.7145155,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4828.150791,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 99.104264,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 8933.8181395,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 93.4575255,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4672.8574895,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 94.29746449999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4587.892844,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 92.6779775,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4098.93062,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 96.99815100000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3886.504895,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 95.2534765,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3843.7063355,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 93.767709,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3616.6096545,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 94.656225,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3468.251641,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 91.886712,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3524.5130525,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-10T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 92.5707205,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3195.8669145,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 94.112076,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3280.532827,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.3002955,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3344.0328005,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.8496785,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3146.9093565000003,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 84.415708,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3993.5251545,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.86307400000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3048.9237055000003,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.1368745,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2623.0816210000003,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.3228855,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2648.0334075,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.295947,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2457.10408,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.998965,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2539.615909,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.04992200000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2863.006114,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.93473,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3153.2313430000004,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.532088,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 13463.1452265,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.8813725,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 13242.543275,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.5077815,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3659.77724,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.9841855,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3782.1726545,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.83788799999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3873.7590505,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.5832575,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 4204.2806550000005,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.0945725,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 5433.1089515,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.45791,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3539.6707635000002,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 95.3740705,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3745.3156615,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3167.85,
+          "rms_median_counts": 100.839034,
+          "complete_minutes": 52
+        },
+        "EHZ": {
+          "documented_seconds": 3170.8,
+          "rms_median_counts": 3672.1763675,
+          "complete_minutes": 50
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.39993899999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1535.8943995,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.941723,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1284.4872639999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-11T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.5605415,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1183.141268,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.257684,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1095.2955525,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.935907,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1037.268996,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.4729545,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 927.840557,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.0052745,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 872.1507015,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.3937635,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 849.411126,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.27686399999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 819.7427439999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.2973115,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 829.1081355,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.7065535,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 864.3346094999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.99696349999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 963.9112709999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.98411949999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1310.806721,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.76342700000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1476.907228,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.2615605,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1945.7501865,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.02972199999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2501.8545354999997,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.26280249999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2315.644064,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.9790815,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2207.6076325,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.264161,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2685.6111955,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.3386985,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2154.0580815000003,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.8487735,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2125.516043,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.6097965,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2667.3858920000002,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.11271450000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2796.481737,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.748164,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2389.727858,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.7771275,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2364.1166,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.3117,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1596.5161465,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-12T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.7775525,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1377.295458,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.48523800000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3063.761591,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.421251,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1413.394035,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.381247,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1388.334178,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.3807815,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1336.8023145,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.9481725,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1409.458098,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.013746,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1135.8157435,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.965355,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 822.508054,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.710415,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 906.65564,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.4838665,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1000.6434845,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.63607350000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1202.632406,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.279049,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1499.390465,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.6489155,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1841.4357045000002,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.7029885,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1956.6088049999998,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.020418,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2368.6559509999997,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.39750699999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2072.284895,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.960324,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2613.7806490000003,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.8856675,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2021.6448615,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.5498105,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2040.265452,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.0465555,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2013.1877165,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.828989,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2059.3265905,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.42278300000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2296.4978585,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.6333115,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1984.475015,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.615144,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1739.5237095,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-13T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.985371,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1718.0822905,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.404978,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1597.8647885,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.78515300000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1971.7208525,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.024835,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1035.3537860000001,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.8010185,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 929.0978700000001,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.02759,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 866.2261965,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.07173900000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 817.1884084999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.99921599999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 799.4764355,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.443394,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 880.1479415,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.4670665,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 913.4427515,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.97725299999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1143.805762,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.78393249999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1379.7702454999999,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.4007235,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1858.0619815,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.22308799999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2193.779453,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.8465865,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2950.199855,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.1111295,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3435.9610175,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.0925235,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3067.3386465,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.981621,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2853.503185,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.4826325,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2823.3328345,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.09128000000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2821.140445,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.8836225,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3055.0532190000004,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.98431450000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2829.0473115000004,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3504.75,
+          "rms_median_counts": 78.03502800000001,
+          "complete_minutes": 56
+        },
+        "EHZ": {
+          "documented_seconds": 3505.22,
+          "rms_median_counts": 2021.1989955,
+          "complete_minutes": 56
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 2062.0,
+          "rms_median_counts": 79.7513665,
+          "complete_minutes": 32
+        },
+        "EHZ": {
+          "documented_seconds": 2062.5,
+          "rms_median_counts": 1555.8140469999998,
+          "complete_minutes": 32
+        }
+      }
+    },
+    {
+      "start": "2026-10-14T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.7544905,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1483.0233465000001,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.323971,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1384.0226865,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.4007735,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1245.9713965,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.2967005,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1114.5259395,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.5886195,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1044.969168,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.054685,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1067.515514,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3421.76,
+          "rms_median_counts": 79.86233899999999,
+          "complete_minutes": 50
+        },
+        "EHZ": {
+          "documented_seconds": 3422.76,
+          "rms_median_counts": 993.9386595000001,
+          "complete_minutes": 52
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 76.030868,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1003.182765,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.1148215,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1061.848496,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.41071,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1135.3082295,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.15652299999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1367.409748,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3406.0,
+          "rms_median_counts": 81.86995350000001,
+          "complete_minutes": 54
+        },
+        "EHZ": {
+          "documented_seconds": 3406.5,
+          "rms_median_counts": 1722.4251165,
+          "complete_minutes": 54
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 1024.04,
+          "rms_median_counts": 90.715733,
+          "complete_minutes": 5
+        },
+        "EHZ": {
+          "documented_seconds": 1027.2,
+          "rms_median_counts": 2424.549974,
+          "complete_minutes": 6
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 700.31,
+          "rms_median_counts": 79.485886,
+          "complete_minutes": 11
+        },
+        "EHZ": {
+          "documented_seconds": 700.31,
+          "rms_median_counts": 2325.93555,
+          "complete_minutes": 11
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.409345,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2535.0692695,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3509.69,
+          "rms_median_counts": 79.201159,
+          "complete_minutes": 57
+        },
+        "EHZ": {
+          "documented_seconds": 3508.44,
+          "rms_median_counts": 3904.855439,
+          "complete_minutes": 57
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.72920500000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3464.6153004999996,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.41881749999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2834.2444155,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.2280745,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2812.05843,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.326145,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2870.4680575,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.8357105,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2635.8073624999997,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.266154,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2845.247588,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.752797,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2450.453498,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.10861349999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1973.3007585,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-15T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 82.136962,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1822.1211225,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T00:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.506538,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1649.462533,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T01:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 78.1350885,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1424.334122,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T02:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 2701.26,
+          "rms_median_counts": 78.709716,
+          "complete_minutes": 30
+        },
+        "EHZ": {
+          "documented_seconds": 2701.43,
+          "rms_median_counts": 1391.574371,
+          "complete_minutes": 29
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T03:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 2377.16,
+          "rms_median_counts": 78.798647,
+          "complete_minutes": 33
+        },
+        "EHZ": {
+          "documented_seconds": 2378.76,
+          "rms_median_counts": 1166.714415,
+          "complete_minutes": 35
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T04:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.5610865,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1268.83221,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T05:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 2844.34,
+          "rms_median_counts": 78.488202,
+          "complete_minutes": 46
+        },
+        "EHZ": {
+          "documented_seconds": 2844.01,
+          "rms_median_counts": 1266.621055,
+          "complete_minutes": 46
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T06:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.38567,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1092.2039985000001,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T07:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 77.932844,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1124.686124,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T08:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 83.28738849999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1438.126124,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T09:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.5270925,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1311.7972169999998,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T10:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.97852900000001,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1296.541282,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T11:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.13629649999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1689.8289275,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T12:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 80.864441,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 1973.1780825,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T13:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 84.17998399999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 3328.5613265,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T14:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 81.272096,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2930.593855,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T15:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.36099999999999,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2446.4176845,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T16:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 79.0306665,
+          "complete_minutes": 60
+        },
+        "EHZ": {
+          "documented_seconds": 3600.0,
+          "rms_median_counts": 2112.50353,
+          "complete_minutes": 60
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T17:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 2434.97,
+          "rms_median_counts": 79.9624915,
+          "complete_minutes": 36
+        },
+        "EHZ": {
+          "documented_seconds": 2437.12,
+          "rms_median_counts": 2671.2042515,
+          "complete_minutes": 36
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T18:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T19:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T20:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T21:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-16T22:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
     {
       "start": "2026-10-16T23:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T00:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T01:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T02:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T03:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T04:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T05:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T06:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T07:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T08:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T09:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T10:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T11:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T12:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T13:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T14:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T15:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T16:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T17:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T18:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T19:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T20:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T21:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     },
     {
       "start": "2026-10-17T22:00:00Z",
       "channels": {
-        "HDF": 0,
-        "EHZ": 0
+        "HDF": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 0.0,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-17T23:00:00Z",
+      "channels": {
+        "HDF": {
+          "documented_seconds": 93.26,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        },
+        "EHZ": {
+          "documented_seconds": 72.12,
+          "rms_median_counts": null,
+          "complete_minutes": 0
+        }
       }
     }
-  ]
+  ],
+  "peak_frequency_counts": {
+    "1.0": 3981,
+    "1.125": 1644,
+    "1.25": 1130,
+    "1.375": 666,
+    "1.5": 410,
+    "1.625": 237,
+    "1.75": 150,
+    "1.875": 78,
+    "2.0": 60,
+    "2.125": 28,
+    "2.25": 16,
+    "2.375": 10,
+    "2.5": 6,
+    "2.625": 5,
+    "2.75": 3,
+    "3.0": 1,
+    "3.125": 2,
+    "3.625": 2,
+    "4.5": 1,
+    "4.625": 6,
+    "5.0": 5,
+    "5.125": 28,
+    "5.25": 1,
+    "5.5": 8,
+    "5.625": 546,
+    "5.75": 320,
+    "5.875": 6,
+    "6.25": 8,
+    "11.375": 1,
+    "12.5": 10
+  },
+  "method_description": "Complete clock minutes; Welch Hann 8 s / 50% overlap; highest mean PSD band; primary 4\u20138 Hz events >=10 consecutive minutes."
 }

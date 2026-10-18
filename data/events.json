@@ -1,0 +1,996 @@
+{
+  "station": "AM.R19BB.00",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "narrow": [
+    {
+      "start_utc": "2026-10-10T16:52:00Z",
+      "end_exclusive_utc": "2026-10-10T16:53:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.5,
+      "peak_max_hz": 5.5,
+      "peak_median_hz": 5.5,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-10T19:17:00Z",
+      "end_exclusive_utc": "2026-10-10T19:18:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.625,
+      "peak_max_hz": 5.625,
+      "peak_median_hz": 5.625,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T00:08:00Z",
+      "end_exclusive_utc": "2026-10-11T00:09:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.625,
+      "peak_max_hz": 5.625,
+      "peak_median_hz": 5.625,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T19:38:00Z",
+      "end_exclusive_utc": "2026-10-11T19:39:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.625,
+      "peak_max_hz": 5.625,
+      "peak_median_hz": 5.625,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T19:54:00Z",
+      "end_exclusive_utc": "2026-10-11T19:55:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.125,
+      "peak_max_hz": 5.125,
+      "peak_median_hz": 5.125,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T20:12:00Z",
+      "end_exclusive_utc": "2026-10-11T20:13:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.125,
+      "peak_max_hz": 5.125,
+      "peak_median_hz": 5.125,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T20:19:00Z",
+      "end_exclusive_utc": "2026-10-11T20:20:00Z",
+      "minutes": 1,
+      "peak_min_hz": 5.125,
+      "peak_max_hz": 5.125,
+      "peak_median_hz": 5.125,
+      "dominant_bands": {
+        "4-8": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-11T20:21:00Z",
+      "end_exclusive_utc": "2026-10-11T20:31:00Z",
+      "minutes": 10,
+      "peak_min_hz": 5.0,
+      "peak_max_hz": 5.125,
+      "peak_median_hz": 5.125,
+      "dominant_bands": {
+        "4-8": 10
+      }
+    },
+    {
+      "start_utc": "2026-10-11T20:34:00Z",
+      "end_exclusive_utc": "2026-10-11T20:39:00Z",
+      "minutes": 5,
+      "peak_min_hz": 4.625,
+      "peak_max_hz": 4.625,
+      "peak_median_hz": 4.625,
+      "dominant_bands": {
+        "4-8": 5
+      }
+    }
+  ],
+  "wide": [
+    {
+      "start_utc": "2026-10-10T01:32:00Z",
+      "end_exclusive_utc": "2026-10-10T03:03:00Z",
+      "minutes": 91,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 12.5,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 91
+      }
+    },
+    {
+      "start_utc": "2026-10-10T03:04:00Z",
+      "end_exclusive_utc": "2026-10-11T20:43:00Z",
+      "minutes": 2499,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 12.5,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 2477,
+        "4-8": 22
+      }
+    },
+    {
+      "start_utc": "2026-10-11T20:51:00Z",
+      "end_exclusive_utc": "2026-10-14T21:41:00Z",
+      "minutes": 4370,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 3.125,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 4370
+      }
+    },
+    {
+      "start_utc": "2026-10-14T21:42:00Z",
+      "end_exclusive_utc": "2026-10-14T21:57:00Z",
+      "minutes": 15,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.125,
+      "peak_median_hz": 1.375,
+      "dominant_bands": {
+        "1-4": 15
+      }
+    },
+    {
+      "start_utc": "2026-10-14T22:00:00Z",
+      "end_exclusive_utc": "2026-10-14T22:01:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.25,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-14T22:08:00Z",
+      "end_exclusive_utc": "2026-10-14T22:10:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.125,
+      "peak_max_hz": 1.375,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-14T22:31:00Z",
+      "end_exclusive_utc": "2026-10-15T05:32:00Z",
+      "minutes": 421,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.5,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 421
+      }
+    },
+    {
+      "start_utc": "2026-10-15T05:36:00Z",
+      "end_exclusive_utc": "2026-10-15T05:37:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.0,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-15T05:39:00Z",
+      "end_exclusive_utc": "2026-10-15T05:40:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.625,
+      "peak_max_hz": 1.625,
+      "peak_median_hz": 1.625,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-15T05:42:00Z",
+      "end_exclusive_utc": "2026-10-15T05:44:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.0,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-15T05:46:00Z",
+      "end_exclusive_utc": "2026-10-15T10:47:00Z",
+      "minutes": 301,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.125,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 301
+      }
+    },
+    {
+      "start_utc": "2026-10-15T10:48:00Z",
+      "end_exclusive_utc": "2026-10-15T10:50:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-15T10:53:00Z",
+      "end_exclusive_utc": "2026-10-15T10:57:00Z",
+      "minutes": 4,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.5,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 4
+      }
+    },
+    {
+      "start_utc": "2026-10-15T10:59:00Z",
+      "end_exclusive_utc": "2026-10-15T11:01:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.125,
+      "peak_median_hz": 1.0625,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-15T11:16:00Z",
+      "end_exclusive_utc": "2026-10-15T11:19:00Z",
+      "minutes": 3,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 3
+      }
+    },
+    {
+      "start_utc": "2026-10-15T11:21:00Z",
+      "end_exclusive_utc": "2026-10-15T11:22:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.25,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-15T12:49:00Z",
+      "end_exclusive_utc": "2026-10-15T14:20:00Z",
+      "minutes": 91,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.0,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 91
+      }
+    },
+    {
+      "start_utc": "2026-10-15T14:23:00Z",
+      "end_exclusive_utc": "2026-10-16T02:25:00Z",
+      "minutes": 722,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 3.125,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 722
+      }
+    },
+    {
+      "start_utc": "2026-10-16T02:28:00Z",
+      "end_exclusive_utc": "2026-10-16T02:29:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.25,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.25,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-16T02:40:00Z",
+      "end_exclusive_utc": "2026-10-16T02:41:00Z",
+      "minutes": 1,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.0,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 1
+      }
+    },
+    {
+      "start_utc": "2026-10-16T02:46:00Z",
+      "end_exclusive_utc": "2026-10-16T02:49:00Z",
+      "minutes": 3,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.125,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 3
+      }
+    },
+    {
+      "start_utc": "2026-10-16T03:02:00Z",
+      "end_exclusive_utc": "2026-10-16T03:07:00Z",
+      "minutes": 5,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.125,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 5
+      }
+    },
+    {
+      "start_utc": "2026-10-16T03:09:00Z",
+      "end_exclusive_utc": "2026-10-16T03:12:00Z",
+      "minutes": 3,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.125,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 3
+      }
+    },
+    {
+      "start_utc": "2026-10-16T03:14:00Z",
+      "end_exclusive_utc": "2026-10-16T03:17:00Z",
+      "minutes": 3,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.375,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 3
+      }
+    },
+    {
+      "start_utc": "2026-10-16T03:19:00Z",
+      "end_exclusive_utc": "2026-10-16T03:21:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-16T03:40:00Z",
+      "end_exclusive_utc": "2026-10-16T05:16:00Z",
+      "minutes": 96,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.5,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 96
+      }
+    },
+    {
+      "start_utc": "2026-10-16T05:28:00Z",
+      "end_exclusive_utc": "2026-10-16T05:32:00Z",
+      "minutes": 4,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.375,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 4
+      }
+    },
+    {
+      "start_utc": "2026-10-16T05:34:00Z",
+      "end_exclusive_utc": "2026-10-16T17:27:00Z",
+      "minutes": 713,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 2.75,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 713
+      }
+    },
+    {
+      "start_utc": "2026-10-16T17:32:00Z",
+      "end_exclusive_utc": "2026-10-16T17:37:00Z",
+      "minutes": 5,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.25,
+      "peak_median_hz": 1.125,
+      "dominant_bands": {
+        "1-4": 5
+      }
+    },
+    {
+      "start_utc": "2026-10-16T17:38:00Z",
+      "end_exclusive_utc": "2026-10-16T17:40:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.0,
+      "peak_median_hz": 1.0,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    },
+    {
+      "start_utc": "2026-10-16T17:52:00Z",
+      "end_exclusive_utc": "2026-10-16T17:54:00Z",
+      "minutes": 2,
+      "peak_min_hz": 1.0,
+      "peak_max_hz": 1.375,
+      "peak_median_hz": 1.1875,
+      "dominant_bands": {
+        "1-4": 2
+      }
+    }
+  ],
+  "bands": {
+    "1-4": [
+      {
+        "start_utc": "2026-10-10T01:32:00Z",
+        "end_exclusive_utc": "2026-10-10T03:03:00Z",
+        "minutes": 91,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 12.5,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 91
+        }
+      },
+      {
+        "start_utc": "2026-10-10T03:04:00Z",
+        "end_exclusive_utc": "2026-10-10T16:52:00Z",
+        "minutes": 828,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 12.5,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "1-4": 828
+        }
+      },
+      {
+        "start_utc": "2026-10-10T16:53:00Z",
+        "end_exclusive_utc": "2026-10-10T19:17:00Z",
+        "minutes": 144,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 12.5,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "1-4": 144
+        }
+      },
+      {
+        "start_utc": "2026-10-10T19:18:00Z",
+        "end_exclusive_utc": "2026-10-11T00:08:00Z",
+        "minutes": 290,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 12.5,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "1-4": 290
+        }
+      },
+      {
+        "start_utc": "2026-10-11T00:09:00Z",
+        "end_exclusive_utc": "2026-10-11T19:38:00Z",
+        "minutes": 1169,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 11.375,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 1169
+        }
+      },
+      {
+        "start_utc": "2026-10-11T19:39:00Z",
+        "end_exclusive_utc": "2026-10-11T19:54:00Z",
+        "minutes": 15,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 5.625,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "1-4": 15
+        }
+      },
+      {
+        "start_utc": "2026-10-11T19:55:00Z",
+        "end_exclusive_utc": "2026-10-11T20:12:00Z",
+        "minutes": 17,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 5.25,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "1-4": 17
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:13:00Z",
+        "end_exclusive_utc": "2026-10-11T20:19:00Z",
+        "minutes": 6,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 1.3125,
+        "dominant_bands": {
+          "1-4": 6
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:20:00Z",
+        "end_exclusive_utc": "2026-10-11T20:21:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.125,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:31:00Z",
+        "end_exclusive_utc": "2026-10-11T20:34:00Z",
+        "minutes": 3,
+        "peak_min_hz": 4.5,
+        "peak_max_hz": 5.0,
+        "peak_median_hz": 4.625,
+        "dominant_bands": {
+          "1-4": 3
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:39:00Z",
+        "end_exclusive_utc": "2026-10-11T20:43:00Z",
+        "minutes": 4,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.5,
+        "peak_median_hz": 1.0625,
+        "dominant_bands": {
+          "1-4": 4
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:51:00Z",
+        "end_exclusive_utc": "2026-10-14T21:41:00Z",
+        "minutes": 4370,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 3.125,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 4370
+        }
+      },
+      {
+        "start_utc": "2026-10-14T21:42:00Z",
+        "end_exclusive_utc": "2026-10-14T21:57:00Z",
+        "minutes": 15,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.125,
+        "peak_median_hz": 1.375,
+        "dominant_bands": {
+          "1-4": 15
+        }
+      },
+      {
+        "start_utc": "2026-10-14T22:00:00Z",
+        "end_exclusive_utc": "2026-10-14T22:01:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.25,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.25,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-14T22:08:00Z",
+        "end_exclusive_utc": "2026-10-14T22:10:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.125,
+        "peak_max_hz": 1.375,
+        "peak_median_hz": 1.25,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-14T22:31:00Z",
+        "end_exclusive_utc": "2026-10-15T05:32:00Z",
+        "minutes": 421,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.5,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 421
+        }
+      },
+      {
+        "start_utc": "2026-10-15T05:36:00Z",
+        "end_exclusive_utc": "2026-10-15T05:37:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.0,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-15T05:39:00Z",
+        "end_exclusive_utc": "2026-10-15T05:40:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.625,
+        "peak_max_hz": 1.625,
+        "peak_median_hz": 1.625,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-15T05:42:00Z",
+        "end_exclusive_utc": "2026-10-15T05:44:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.0,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-15T05:46:00Z",
+        "end_exclusive_utc": "2026-10-15T10:47:00Z",
+        "minutes": 301,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.125,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 301
+        }
+      },
+      {
+        "start_utc": "2026-10-15T10:48:00Z",
+        "end_exclusive_utc": "2026-10-15T10:50:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-15T10:53:00Z",
+        "end_exclusive_utc": "2026-10-15T10:57:00Z",
+        "minutes": 4,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.5,
+        "peak_median_hz": 1.25,
+        "dominant_bands": {
+          "1-4": 4
+        }
+      },
+      {
+        "start_utc": "2026-10-15T10:59:00Z",
+        "end_exclusive_utc": "2026-10-15T11:01:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.125,
+        "peak_median_hz": 1.0625,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-15T11:16:00Z",
+        "end_exclusive_utc": "2026-10-15T11:19:00Z",
+        "minutes": 3,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 3
+        }
+      },
+      {
+        "start_utc": "2026-10-15T11:21:00Z",
+        "end_exclusive_utc": "2026-10-15T11:22:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.25,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.25,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-15T12:49:00Z",
+        "end_exclusive_utc": "2026-10-15T14:20:00Z",
+        "minutes": 91,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.0,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 91
+        }
+      },
+      {
+        "start_utc": "2026-10-15T14:23:00Z",
+        "end_exclusive_utc": "2026-10-16T02:25:00Z",
+        "minutes": 722,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 3.125,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 722
+        }
+      },
+      {
+        "start_utc": "2026-10-16T02:28:00Z",
+        "end_exclusive_utc": "2026-10-16T02:29:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.25,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.25,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-16T02:40:00Z",
+        "end_exclusive_utc": "2026-10-16T02:41:00Z",
+        "minutes": 1,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.0,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-16T02:46:00Z",
+        "end_exclusive_utc": "2026-10-16T02:49:00Z",
+        "minutes": 3,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.125,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 3
+        }
+      },
+      {
+        "start_utc": "2026-10-16T03:02:00Z",
+        "end_exclusive_utc": "2026-10-16T03:07:00Z",
+        "minutes": 5,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.125,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 5
+        }
+      },
+      {
+        "start_utc": "2026-10-16T03:09:00Z",
+        "end_exclusive_utc": "2026-10-16T03:12:00Z",
+        "minutes": 3,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.125,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 3
+        }
+      },
+      {
+        "start_utc": "2026-10-16T03:14:00Z",
+        "end_exclusive_utc": "2026-10-16T03:17:00Z",
+        "minutes": 3,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.375,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 3
+        }
+      },
+      {
+        "start_utc": "2026-10-16T03:19:00Z",
+        "end_exclusive_utc": "2026-10-16T03:21:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-16T03:40:00Z",
+        "end_exclusive_utc": "2026-10-16T05:16:00Z",
+        "minutes": 96,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.5,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 96
+        }
+      },
+      {
+        "start_utc": "2026-10-16T05:28:00Z",
+        "end_exclusive_utc": "2026-10-16T05:32:00Z",
+        "minutes": 4,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.375,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 4
+        }
+      },
+      {
+        "start_utc": "2026-10-16T05:34:00Z",
+        "end_exclusive_utc": "2026-10-16T17:27:00Z",
+        "minutes": 713,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 2.75,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 713
+        }
+      },
+      {
+        "start_utc": "2026-10-16T17:32:00Z",
+        "end_exclusive_utc": "2026-10-16T17:37:00Z",
+        "minutes": 5,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.25,
+        "peak_median_hz": 1.125,
+        "dominant_bands": {
+          "1-4": 5
+        }
+      },
+      {
+        "start_utc": "2026-10-16T17:38:00Z",
+        "end_exclusive_utc": "2026-10-16T17:40:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.0,
+        "peak_median_hz": 1.0,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      },
+      {
+        "start_utc": "2026-10-16T17:52:00Z",
+        "end_exclusive_utc": "2026-10-16T17:54:00Z",
+        "minutes": 2,
+        "peak_min_hz": 1.0,
+        "peak_max_hz": 1.375,
+        "peak_median_hz": 1.1875,
+        "dominant_bands": {
+          "1-4": 2
+        }
+      }
+    ],
+    "4-8": [
+      {
+        "start_utc": "2026-10-10T16:52:00Z",
+        "end_exclusive_utc": "2026-10-10T16:53:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.5,
+        "peak_max_hz": 5.5,
+        "peak_median_hz": 5.5,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-10T19:17:00Z",
+        "end_exclusive_utc": "2026-10-10T19:18:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.625,
+        "peak_max_hz": 5.625,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T00:08:00Z",
+        "end_exclusive_utc": "2026-10-11T00:09:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.625,
+        "peak_max_hz": 5.625,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T19:38:00Z",
+        "end_exclusive_utc": "2026-10-11T19:39:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.625,
+        "peak_max_hz": 5.625,
+        "peak_median_hz": 5.625,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T19:54:00Z",
+        "end_exclusive_utc": "2026-10-11T19:55:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.125,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:12:00Z",
+        "end_exclusive_utc": "2026-10-11T20:13:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.125,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:19:00Z",
+        "end_exclusive_utc": "2026-10-11T20:20:00Z",
+        "minutes": 1,
+        "peak_min_hz": 5.125,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "4-8": 1
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:21:00Z",
+        "end_exclusive_utc": "2026-10-11T20:31:00Z",
+        "minutes": 10,
+        "peak_min_hz": 5.0,
+        "peak_max_hz": 5.125,
+        "peak_median_hz": 5.125,
+        "dominant_bands": {
+          "4-8": 10
+        }
+      },
+      {
+        "start_utc": "2026-10-11T20:34:00Z",
+        "end_exclusive_utc": "2026-10-11T20:39:00Z",
+        "minutes": 5,
+        "peak_min_hz": 4.625,
+        "peak_max_hz": 4.625,
+        "peak_median_hz": 4.625,
+        "dominant_bands": {
+          "4-8": 5
+        }
+      }
+    ],
+    "8-16": [],
+    "16-20": []
+  }
+}

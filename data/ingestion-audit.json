@@ -1,0 +1,1069 @@
+{
+  "station": "AM.R19BB.00",
+  "method": "detroit-welch-8s-50pct-mean-band-v2",
+  "files_received": 16,
+  "distinct_file_hashes": 16,
+  "source_ids": [
+    "46fdd52e67ce41d13471f2cafc2a3a51c0815df7a1f4a80c1428b78cac49769f",
+    "eba973af99a09c7d0640afdbb989526e68c16bcf2c5101d465d8207711114c76",
+    "218d482c5f50a91f4905f57e3c0b34335e4bde2b53c69059dd3aa684a6d5c0c5",
+    "8111595facf5813c92d6fa82f333edb3d056b4db314120eba42e7cfb4837e488",
+    "14063a93e42a7087616e1b75f98f5f7113528a47f8598b1cf8545395dc632846",
+    "857a38cb608f336494d8f072d004452c4b784fe803beb446db8ffd6eafc60f5b",
+    "17007cdf22d52c421212110174ea995fb422dd65e86f74f595fd04a2f89b104a",
+    "a65f257b27504a45b5c386d5b22c152bcbd3a00d24a9b399673fb18d6bf4747e",
+    "47d19dfc27da12831965f9a4e12ce7e07c273ef3619334de00cb5fc31191990a",
+    "094fa3cfdd35b1ae352f25fcaa24b5d845949161cae7a5ef4c849462e448947d",
+    "946a86c0aecd7b2e4c747b9a46e06b79cbfad2e3f79fcf356b18edfb17d4d2b0",
+    "ae3b5b1bb4862f765c6be3b76c4225e836e3c61a4ebd9b24d4e93c3021f4e91c",
+    "2cab653835061754ce1a02a95a4acb1cdc5fce3939ec7eeb193cca1b6e8086e5",
+    "5feccdfc7281699de469113f17cb7ad9768cd3f70e8cfa7a62d73e185bd898d9",
+    "216938a8322710a4c3fe9e36e4d4611b7adb74699e39b49928d5dd55595cadd7",
+    "02392056654ddd76268ee3d6daa2f9adf6122add5ce934f244a905bf1e5bf42a"
+  ],
+  "channels": [
+    {
+      "channel": "HDF",
+      "valid_samples": 56576118,
+      "conflict_samples": 10,
+      "identical_overlap_samples": 0,
+      "max_tick_assignment_shift_ms": 5.0,
+      "unavailable_intervals": [
+        {
+          "start_utc": "2026-10-10T01:31:00Z",
+          "end_exclusive_utc": "2026-10-10T01:31:15.080000Z",
+          "seconds": 15.08
+        },
+        {
+          "start_utc": "2026-10-10T03:03:26.920000Z",
+          "end_exclusive_utc": "2026-10-10T03:03:38.050000Z",
+          "seconds": 11.13
+        },
+        {
+          "start_utc": "2026-10-11T20:43:13.790000Z",
+          "end_exclusive_utc": "2026-10-11T20:50:25.940000Z",
+          "seconds": 432.15
+        },
+        {
+          "start_utc": "2026-10-14T21:41:19.030000Z",
+          "end_exclusive_utc": "2026-10-14T21:41:19.280000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T21:41:28.030000Z",
+          "end_exclusive_utc": "2026-10-14T21:41:33.530000Z",
+          "seconds": 5.5
+        },
+        {
+          "start_utc": "2026-10-14T21:57:16.530000Z",
+          "end_exclusive_utc": "2026-10-14T21:57:16.780000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T21:57:30.780000Z",
+          "end_exclusive_utc": "2026-10-14T21:59:00.030000Z",
+          "seconds": 89.25
+        },
+        {
+          "start_utc": "2026-10-14T22:01:32.280000Z",
+          "end_exclusive_utc": "2026-10-14T22:01:32.530000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:01:33.530000Z",
+          "end_exclusive_utc": "2026-10-14T22:01:33.780000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:01:36.280000Z",
+          "end_exclusive_utc": "2026-10-14T22:07:28.030000Z",
+          "seconds": 351.75
+        },
+        {
+          "start_utc": "2026-10-14T22:10:09.030000Z",
+          "end_exclusive_utc": "2026-10-14T22:10:09.280000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:10:11.280000Z",
+          "end_exclusive_utc": "2026-10-14T22:10:11.530000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:10:14.030000Z",
+          "end_exclusive_utc": "2026-10-14T22:29:34.530000Z",
+          "seconds": 1160.5
+        },
+        {
+          "start_utc": "2026-10-14T22:29:36.030000Z",
+          "end_exclusive_utc": "2026-10-14T22:30:00.780000Z",
+          "seconds": 24.75
+        },
+        {
+          "start_utc": "2026-10-15T05:32:00.490000Z",
+          "end_exclusive_utc": "2026-10-15T05:32:00.740000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:33:16.740000Z",
+          "end_exclusive_utc": "2026-10-15T05:33:17.240000Z",
+          "seconds": 0.5
+        },
+        {
+          "start_utc": "2026-10-15T05:33:42.240000Z",
+          "end_exclusive_utc": "2026-10-15T05:35:21.980000Z",
+          "seconds": 99.74
+        },
+        {
+          "start_utc": "2026-10-15T05:37:46.980000Z",
+          "end_exclusive_utc": "2026-10-15T05:37:47.230000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:37:51.730000Z",
+          "end_exclusive_utc": "2026-10-15T05:38:34.980000Z",
+          "seconds": 43.25
+        },
+        {
+          "start_utc": "2026-10-15T05:40:25.230000Z",
+          "end_exclusive_utc": "2026-10-15T05:40:25.480000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:41:14.480000Z",
+          "end_exclusive_utc": "2026-10-15T05:41:43.230000Z",
+          "seconds": 28.75
+        },
+        {
+          "start_utc": "2026-10-15T05:44:41.480000Z",
+          "end_exclusive_utc": "2026-10-15T05:44:41.730000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:45:46.230000Z",
+          "end_exclusive_utc": "2026-10-15T05:45:51.230000Z",
+          "seconds": 5.0
+        },
+        {
+          "start_utc": "2026-10-15T10:47:04.200000Z",
+          "end_exclusive_utc": "2026-10-15T10:47:04.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:47:21.200000Z",
+          "end_exclusive_utc": "2026-10-15T10:47:21.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:47:24.200000Z",
+          "end_exclusive_utc": "2026-10-15T10:47:41.200000Z",
+          "seconds": 17.0
+        },
+        {
+          "start_utc": "2026-10-15T10:50:25.950000Z",
+          "end_exclusive_utc": "2026-10-15T10:50:26.200000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:50:39.950000Z",
+          "end_exclusive_utc": "2026-10-15T10:52:24.950000Z",
+          "seconds": 105.0
+        },
+        {
+          "start_utc": "2026-10-15T10:57:23.450000Z",
+          "end_exclusive_utc": "2026-10-15T10:57:23.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:57:28.700000Z",
+          "end_exclusive_utc": "2026-10-15T10:58:39.700000Z",
+          "seconds": 71.0
+        },
+        {
+          "start_utc": "2026-10-15T11:01:20.200000Z",
+          "end_exclusive_utc": "2026-10-15T11:01:20.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:01:21.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:01:21.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:01:23.950000Z",
+          "end_exclusive_utc": "2026-10-15T11:01:24.200000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:01:26.700000Z",
+          "end_exclusive_utc": "2026-10-15T11:15:37.700000Z",
+          "seconds": 851.0
+        },
+        {
+          "start_utc": "2026-10-15T11:19:07.200000Z",
+          "end_exclusive_utc": "2026-10-15T11:19:07.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:19:08.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:19:08.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:19:46.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:20:37.940000Z",
+          "seconds": 51.49
+        },
+        {
+          "start_utc": "2026-10-15T11:22:48.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:22:49.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:22:52.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:23:43.440000Z",
+          "seconds": 51.0
+        },
+        {
+          "start_utc": "2026-10-15T11:24:50.530000Z",
+          "end_exclusive_utc": "2026-10-15T11:24:50.690000Z",
+          "seconds": 0.16
+        },
+        {
+          "start_utc": "2026-10-15T11:24:51.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:24:51.940000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:24:52.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:24:53.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:24:53.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:28:04.440000Z",
+          "seconds": 190.75
+        },
+        {
+          "start_utc": "2026-10-15T11:29:48.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:29:49.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:30:27.190000Z",
+          "end_exclusive_utc": "2026-10-15T11:30:27.440000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:30:38.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:32:05.190000Z",
+          "seconds": 86.5
+        },
+        {
+          "start_utc": "2026-10-15T11:32:56.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:32:57.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:32:57.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:34:20.440000Z",
+          "seconds": 83.0
+        },
+        {
+          "start_utc": "2026-10-15T11:35:22.190000Z",
+          "end_exclusive_utc": "2026-10-15T11:35:22.440000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:35:27.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:35:28.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:35:31.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:35:31.690000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:36:37.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:36:38.190000Z",
+          "seconds": 0.75
+        },
+        {
+          "start_utc": "2026-10-15T11:36:47.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:36:48.190000Z",
+          "seconds": 0.75
+        },
+        {
+          "start_utc": "2026-10-15T11:36:48.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:38:36.440000Z",
+          "seconds": 108.0
+        },
+        {
+          "start_utc": "2026-10-15T11:39:36.190000Z",
+          "end_exclusive_utc": "2026-10-15T11:39:36.830000Z",
+          "seconds": 0.64
+        },
+        {
+          "start_utc": "2026-10-15T11:40:16.330000Z",
+          "end_exclusive_utc": "2026-10-15T11:40:16.580000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:40:17.580000Z",
+          "end_exclusive_utc": "2026-10-15T11:40:17.830000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:40:44.580000Z",
+          "end_exclusive_utc": "2026-10-15T11:42:06.940000Z",
+          "seconds": 82.36
+        },
+        {
+          "start_utc": "2026-10-15T11:42:14.440000Z",
+          "end_exclusive_utc": "2026-10-15T12:48:19.690000Z",
+          "seconds": 3965.25
+        },
+        {
+          "start_utc": "2026-10-15T14:20:48.650000Z",
+          "end_exclusive_utc": "2026-10-15T14:22:18.930000Z",
+          "seconds": 90.28
+        },
+        {
+          "start_utc": "2026-10-15T14:22:47.590000Z",
+          "end_exclusive_utc": "2026-10-15T14:22:47.620000Z",
+          "seconds": 0.03
+        },
+        {
+          "start_utc": "2026-10-16T02:25:01.640000Z",
+          "end_exclusive_utc": "2026-10-16T02:25:01.890000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:25:40.140000Z",
+          "end_exclusive_utc": "2026-10-16T02:27:53.630000Z",
+          "seconds": 133.49
+        },
+        {
+          "start_utc": "2026-10-16T02:29:42.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:30:12.630000Z",
+          "seconds": 30.0
+        },
+        {
+          "start_utc": "2026-10-16T02:31:10.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:31:10.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:31:11.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:31:12.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:31:18.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:36:24.130000Z",
+          "seconds": 305.25
+        },
+        {
+          "start_utc": "2026-10-16T02:37:12.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:37:12.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:37:55.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:39:03.130000Z",
+          "seconds": 67.5
+        },
+        {
+          "start_utc": "2026-10-16T02:41:33.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:41:33.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:42:29.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:45:01.130000Z",
+          "seconds": 151.25
+        },
+        {
+          "start_utc": "2026-10-16T02:49:02.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:49:02.880000Z",
+          "seconds": 0.5
+        },
+        {
+          "start_utc": "2026-10-16T02:49:08.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:49:35.380000Z",
+          "seconds": 26.75
+        },
+        {
+          "start_utc": "2026-10-16T02:50:41.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:50:41.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:50:42.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:50:42.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:50:43.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:51:28.630000Z",
+          "seconds": 45.25
+        },
+        {
+          "start_utc": "2026-10-16T02:52:06.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:52:07.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:52:18.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:52:46.880000Z",
+          "seconds": 28.0
+        },
+        {
+          "start_utc": "2026-10-16T02:53:49.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:53:50.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:54:28.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:54:28.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:54:29.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:54:52.880000Z",
+          "seconds": 23.75
+        },
+        {
+          "start_utc": "2026-10-16T02:55:34.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:55:34.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:55:35.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:55:35.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:56:13.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:57:18.380000Z",
+          "seconds": 64.75
+        },
+        {
+          "start_utc": "2026-10-16T02:58:11.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:58:11.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:58:24.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:58:40.880000Z",
+          "seconds": 16.25
+        },
+        {
+          "start_utc": "2026-10-16T02:59:24.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:59:24.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:59:53.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:59:56.130000Z",
+          "seconds": 2.5
+        },
+        {
+          "start_utc": "2026-10-16T03:00:45.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:00:45.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T03:01:19.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:01:51.630000Z",
+          "seconds": 32.25
+        },
+        {
+          "start_utc": "2026-10-16T03:07:27.880000Z",
+          "end_exclusive_utc": "2026-10-16T03:07:28.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T03:08:11.630000Z",
+          "end_exclusive_utc": "2026-10-16T03:08:56.130000Z",
+          "seconds": 44.5
+        },
+        {
+          "start_utc": "2026-10-16T03:12:21.630000Z",
+          "end_exclusive_utc": "2026-10-16T03:12:21.730000Z",
+          "seconds": 0.1
+        },
+        {
+          "start_utc": "2026-10-16T03:13:03.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:13:24.380000Z",
+          "seconds": 21.0
+        },
+        {
+          "start_utc": "2026-10-16T03:17:57.630000Z",
+          "end_exclusive_utc": "2026-10-16T03:17:58.880000Z",
+          "seconds": 1.25
+        },
+        {
+          "start_utc": "2026-10-16T03:18:23.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:18:52.380000Z",
+          "seconds": 29.0
+        },
+        {
+          "start_utc": "2026-10-16T03:21:07.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:39:21.620000Z",
+          "seconds": 1094.24
+        },
+        {
+          "start_utc": "2026-10-16T05:16:31.880000Z",
+          "end_exclusive_utc": "2026-10-16T05:27:46.380000Z",
+          "seconds": 674.5
+        },
+        {
+          "start_utc": "2026-10-16T05:32:15.010000Z",
+          "end_exclusive_utc": "2026-10-16T05:33:36.170000Z",
+          "seconds": 81.16
+        },
+        {
+          "start_utc": "2026-10-16T17:27:44.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:27:45.060000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:28:22.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:28:23.060000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:28:24.060000Z",
+          "end_exclusive_utc": "2026-10-16T17:28:24.310000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:28:48.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:31:25.560000Z",
+          "seconds": 156.75
+        },
+        {
+          "start_utc": "2026-10-16T17:37:21.310000Z",
+          "end_exclusive_utc": "2026-10-16T17:37:24.060000Z",
+          "seconds": 2.75
+        },
+        {
+          "start_utc": "2026-10-16T17:40:04.560000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:04.810000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:40:32.740000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:33.060000Z",
+          "seconds": 0.32
+        },
+        {
+          "start_utc": "2026-10-16T17:40:34.060000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:34.310000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:40:36.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:51:57.810000Z",
+          "seconds": 681.0
+        },
+        {
+          "start_utc": "2026-10-16T17:54:37.040000Z",
+          "end_exclusive_utc": "2026-10-17T23:04:18.750000Z",
+          "seconds": 104981.71
+        },
+        {
+          "start_utc": "2026-10-17T23:05:52.010000Z",
+          "end_exclusive_utc": "2026-10-17T23:06:00Z",
+          "seconds": 7.99
+        }
+      ]
+    },
+    {
+      "channel": "EHZ",
+      "valid_samples": 56575132,
+      "conflict_samples": 1,
+      "identical_overlap_samples": 0,
+      "max_tick_assignment_shift_ms": 5.0,
+      "unavailable_intervals": [
+        {
+          "start_utc": "2026-10-10T01:31:00Z",
+          "end_exclusive_utc": "2026-10-10T01:31:15.080000Z",
+          "seconds": 15.08
+        },
+        {
+          "start_utc": "2026-10-10T03:03:27.280000Z",
+          "end_exclusive_utc": "2026-10-10T03:03:38.050000Z",
+          "seconds": 10.77
+        },
+        {
+          "start_utc": "2026-10-11T20:43:19.190000Z",
+          "end_exclusive_utc": "2026-10-11T20:50:28.370000Z",
+          "seconds": 429.18
+        },
+        {
+          "start_utc": "2026-10-11T20:52:35.320000Z",
+          "end_exclusive_utc": "2026-10-11T20:52:35.330000Z",
+          "seconds": 0.01
+        },
+        {
+          "start_utc": "2026-10-11T20:54:59.450000Z",
+          "end_exclusive_utc": "2026-10-11T20:54:59.460000Z",
+          "seconds": 0.01
+        },
+        {
+          "start_utc": "2026-10-14T21:41:28.030000Z",
+          "end_exclusive_utc": "2026-10-14T21:41:33.530000Z",
+          "seconds": 5.5
+        },
+        {
+          "start_utc": "2026-10-14T21:57:19.820000Z",
+          "end_exclusive_utc": "2026-10-14T21:57:19.850000Z",
+          "seconds": 0.03
+        },
+        {
+          "start_utc": "2026-10-14T21:57:30.780000Z",
+          "end_exclusive_utc": "2026-10-14T21:59:00.030000Z",
+          "seconds": 89.25
+        },
+        {
+          "start_utc": "2026-10-14T22:01:33.530000Z",
+          "end_exclusive_utc": "2026-10-14T22:01:33.780000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:01:36.280000Z",
+          "end_exclusive_utc": "2026-10-14T22:07:28.030000Z",
+          "seconds": 351.75
+        },
+        {
+          "start_utc": "2026-10-14T22:10:10.280000Z",
+          "end_exclusive_utc": "2026-10-14T22:10:10.530000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-14T22:10:14.030000Z",
+          "end_exclusive_utc": "2026-10-14T22:29:34.530000Z",
+          "seconds": 1160.5
+        },
+        {
+          "start_utc": "2026-10-14T22:29:36.030000Z",
+          "end_exclusive_utc": "2026-10-14T22:30:00.780000Z",
+          "seconds": 24.75
+        },
+        {
+          "start_utc": "2026-10-15T05:33:42.240000Z",
+          "end_exclusive_utc": "2026-10-15T05:35:21.980000Z",
+          "seconds": 99.74
+        },
+        {
+          "start_utc": "2026-10-15T05:37:46.980000Z",
+          "end_exclusive_utc": "2026-10-15T05:37:47.230000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:37:51.730000Z",
+          "end_exclusive_utc": "2026-10-15T05:38:34.980000Z",
+          "seconds": 43.25
+        },
+        {
+          "start_utc": "2026-10-15T05:40:25.230000Z",
+          "end_exclusive_utc": "2026-10-15T05:40:25.480000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T05:41:14.480000Z",
+          "end_exclusive_utc": "2026-10-15T05:41:43.230000Z",
+          "seconds": 28.75
+        },
+        {
+          "start_utc": "2026-10-15T05:45:46.230000Z",
+          "end_exclusive_utc": "2026-10-15T05:45:51.230000Z",
+          "seconds": 5.0
+        },
+        {
+          "start_utc": "2026-10-15T10:47:21.200000Z",
+          "end_exclusive_utc": "2026-10-15T10:47:21.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:47:24.200000Z",
+          "end_exclusive_utc": "2026-10-15T10:47:41.200000Z",
+          "seconds": 17.0
+        },
+        {
+          "start_utc": "2026-10-15T10:50:39.950000Z",
+          "end_exclusive_utc": "2026-10-15T10:52:24.950000Z",
+          "seconds": 105.0
+        },
+        {
+          "start_utc": "2026-10-15T10:57:23.450000Z",
+          "end_exclusive_utc": "2026-10-15T10:57:23.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T10:57:28.700000Z",
+          "end_exclusive_utc": "2026-10-15T10:58:39.700000Z",
+          "seconds": 71.0
+        },
+        {
+          "start_utc": "2026-10-15T11:01:21.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:01:21.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:01:23.950000Z",
+          "end_exclusive_utc": "2026-10-15T11:01:24.200000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:01:26.700000Z",
+          "end_exclusive_utc": "2026-10-15T11:15:37.700000Z",
+          "seconds": 851.0
+        },
+        {
+          "start_utc": "2026-10-15T11:19:07.200000Z",
+          "end_exclusive_utc": "2026-10-15T11:19:07.450000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:19:08.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:19:08.700000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:19:46.450000Z",
+          "end_exclusive_utc": "2026-10-15T11:20:37.940000Z",
+          "seconds": 51.49
+        },
+        {
+          "start_utc": "2026-10-15T11:22:52.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:23:43.440000Z",
+          "seconds": 51.0
+        },
+        {
+          "start_utc": "2026-10-15T11:24:51.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:24:51.940000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:24:52.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:24:53.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:24:53.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:28:04.440000Z",
+          "seconds": 190.75
+        },
+        {
+          "start_utc": "2026-10-15T11:30:38.690000Z",
+          "end_exclusive_utc": "2026-10-15T11:32:05.190000Z",
+          "seconds": 86.5
+        },
+        {
+          "start_utc": "2026-10-15T11:32:57.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:34:20.440000Z",
+          "seconds": 83.0
+        },
+        {
+          "start_utc": "2026-10-15T11:35:22.190000Z",
+          "end_exclusive_utc": "2026-10-15T11:35:22.440000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:35:31.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:35:31.690000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:36:09.940000Z",
+          "end_exclusive_utc": "2026-10-15T11:36:10.190000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:36:48.440000Z",
+          "end_exclusive_utc": "2026-10-15T11:38:36.440000Z",
+          "seconds": 108.0
+        },
+        {
+          "start_utc": "2026-10-15T11:39:36.190000Z",
+          "end_exclusive_utc": "2026-10-15T11:39:36.830000Z",
+          "seconds": 0.64
+        },
+        {
+          "start_utc": "2026-10-15T11:40:16.330000Z",
+          "end_exclusive_utc": "2026-10-15T11:40:16.580000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:40:17.580000Z",
+          "end_exclusive_utc": "2026-10-15T11:40:17.830000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-15T11:40:44.580000Z",
+          "end_exclusive_utc": "2026-10-15T11:42:06.940000Z",
+          "seconds": 82.36
+        },
+        {
+          "start_utc": "2026-10-15T11:42:14.690000Z",
+          "end_exclusive_utc": "2026-10-15T12:48:19.690000Z",
+          "seconds": 3965.0
+        },
+        {
+          "start_utc": "2026-10-15T14:20:50.020000Z",
+          "end_exclusive_utc": "2026-10-15T14:22:21.550000Z",
+          "seconds": 91.53
+        },
+        {
+          "start_utc": "2026-10-15T14:22:46.310000Z",
+          "end_exclusive_utc": "2026-10-15T14:22:46.340000Z",
+          "seconds": 0.03
+        },
+        {
+          "start_utc": "2026-10-16T02:24:24.300000Z",
+          "end_exclusive_utc": "2026-10-16T02:24:24.370000Z",
+          "seconds": 0.07
+        },
+        {
+          "start_utc": "2026-10-16T02:25:40.140000Z",
+          "end_exclusive_utc": "2026-10-16T02:27:53.630000Z",
+          "seconds": 133.49
+        },
+        {
+          "start_utc": "2026-10-16T02:29:42.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:30:12.630000Z",
+          "seconds": 30.0
+        },
+        {
+          "start_utc": "2026-10-16T02:31:10.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:31:10.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:31:11.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:31:12.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:31:18.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:36:24.130000Z",
+          "seconds": 305.25
+        },
+        {
+          "start_utc": "2026-10-16T02:37:12.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:37:12.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:37:13.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:37:13.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:37:55.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:39:03.130000Z",
+          "seconds": 67.5
+        },
+        {
+          "start_utc": "2026-10-16T02:41:33.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:41:33.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:41:34.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:41:35.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:42:29.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:45:01.130000Z",
+          "seconds": 151.25
+        },
+        {
+          "start_utc": "2026-10-16T02:47:38.650000Z",
+          "end_exclusive_utc": "2026-10-16T02:47:38.660000Z",
+          "seconds": 0.01
+        },
+        {
+          "start_utc": "2026-10-16T02:49:08.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:49:35.380000Z",
+          "seconds": 26.75
+        },
+        {
+          "start_utc": "2026-10-16T02:50:41.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:50:41.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:50:42.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:50:42.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:50:43.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:51:28.630000Z",
+          "seconds": 45.25
+        },
+        {
+          "start_utc": "2026-10-16T02:52:06.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:52:07.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:52:18.880000Z",
+          "end_exclusive_utc": "2026-10-16T02:52:46.880000Z",
+          "seconds": 28.0
+        },
+        {
+          "start_utc": "2026-10-16T02:54:28.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:54:28.630000Z",
+          "seconds": 0.5
+        },
+        {
+          "start_utc": "2026-10-16T02:54:29.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:54:52.880000Z",
+          "seconds": 23.75
+        },
+        {
+          "start_utc": "2026-10-16T02:55:34.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:55:34.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:55:35.380000Z",
+          "end_exclusive_utc": "2026-10-16T02:55:35.630000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:56:13.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:57:18.380000Z",
+          "seconds": 64.75
+        },
+        {
+          "start_utc": "2026-10-16T02:58:11.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:58:11.880000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:58:24.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:58:40.880000Z",
+          "seconds": 16.25
+        },
+        {
+          "start_utc": "2026-10-16T02:59:24.130000Z",
+          "end_exclusive_utc": "2026-10-16T02:59:24.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T02:59:53.630000Z",
+          "end_exclusive_utc": "2026-10-16T02:59:56.130000Z",
+          "seconds": 2.5
+        },
+        {
+          "start_utc": "2026-10-16T03:01:19.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:01:51.630000Z",
+          "seconds": 32.25
+        },
+        {
+          "start_utc": "2026-10-16T03:07:27.880000Z",
+          "end_exclusive_utc": "2026-10-16T03:07:28.130000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T03:08:11.630000Z",
+          "end_exclusive_utc": "2026-10-16T03:08:56.130000Z",
+          "seconds": 44.5
+        },
+        {
+          "start_utc": "2026-10-16T03:12:27.130000Z",
+          "end_exclusive_utc": "2026-10-16T03:12:27.380000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T03:13:03.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:13:24.380000Z",
+          "seconds": 21.0
+        },
+        {
+          "start_utc": "2026-10-16T03:18:23.380000Z",
+          "end_exclusive_utc": "2026-10-16T03:18:52.380000Z",
+          "seconds": 29.0
+        },
+        {
+          "start_utc": "2026-10-16T03:21:07.630000Z",
+          "end_exclusive_utc": "2026-10-16T03:39:21.620000Z",
+          "seconds": 1093.99
+        },
+        {
+          "start_utc": "2026-10-16T05:16:32.130000Z",
+          "end_exclusive_utc": "2026-10-16T05:27:46.380000Z",
+          "seconds": 674.25
+        },
+        {
+          "start_utc": "2026-10-16T05:32:17.560000Z",
+          "end_exclusive_utc": "2026-10-16T05:33:39.300000Z",
+          "seconds": 81.74
+        },
+        {
+          "start_utc": "2026-10-16T17:27:44.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:27:45.060000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:28:24.060000Z",
+          "end_exclusive_utc": "2026-10-16T17:28:24.310000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:28:48.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:31:25.560000Z",
+          "seconds": 156.75
+        },
+        {
+          "start_utc": "2026-10-16T17:37:21.310000Z",
+          "end_exclusive_utc": "2026-10-16T17:37:24.060000Z",
+          "seconds": 2.75
+        },
+        {
+          "start_utc": "2026-10-16T17:40:05.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:06.060000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:40:32.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:33.060000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:40:34.060000Z",
+          "end_exclusive_utc": "2026-10-16T17:40:34.310000Z",
+          "seconds": 0.25
+        },
+        {
+          "start_utc": "2026-10-16T17:40:36.810000Z",
+          "end_exclusive_utc": "2026-10-16T17:51:57.810000Z",
+          "seconds": 681.0
+        },
+        {
+          "start_utc": "2026-10-16T17:54:38.870000Z",
+          "end_exclusive_utc": "2026-10-17T23:04:21.210000Z",
+          "seconds": 104982.34
+        },
+        {
+          "start_utc": "2026-10-17T23:05:33.330000Z",
+          "end_exclusive_utc": "2026-10-17T23:06:00Z",
+          "seconds": 26.67
+        }
+      ]
+    }
+  ],
+  "original_files_unchanged": true,
+  "raw_files_published": false,
+  "old_observation_rows": 18922,
+  "new_observation_rows": 18922,
+  "note": "Sub-sample timestamps assigned to nearest tick, at most half a 100 Hz sample; values never interpolated. Conflicting overlaps excluded."
+}
