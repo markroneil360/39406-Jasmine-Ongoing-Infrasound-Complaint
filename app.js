@@ -5,7 +5,7 @@ const num=n=>Number(n).toLocaleString('en-US',{maximumFractionDigits:2});
 const duration=seconds=>{const s=Math.round(seconds),h=Math.floor(s/3600),m=Math.floor(s%3600/60),r=s%60;return `${h}h ${m}m${h<1?' '+r+'s':''}`};
 const text=(id,value)=>$(id).textContent=value;
 const row=(target,values)=>{const tr=document.createElement('tr');values.forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.append(td)});$(target).append(tr)};
-let summary,eventdoc,observations,allEvents=false;
+let summary,eventdoc,observations,allEvents=false,manifest;
 function renderOverview(){
   const w=summary.windows[$('window').value],h=w.channels.HDF,e=w.channels.EHZ;
   text('window-label',`${et(w.start)} to ${et(w.end)} Eastern. Rolling windows are anchored to the analysis update, not to live data.`);
@@ -90,11 +90,23 @@ function parseCSV(value){
   return lines.filter(Boolean).map(line=>Object.fromEntries(line.split(',').map((v,i)=>[headers[i],v])));
 }
 async function get(name,asText=false){
-  const response=await fetch('data/'+name,{cache:'no-store'});if(!response.ok)throw Error(`${name}: HTTP ${response.status}`);
-  return asText?response.text():response.json();
+  const expected=manifest?.files[name];
+  if(name!=='manifest.json'&&!expected)throw Error(`Missing evidence hash: ${name}`);
+  const response=await fetch('data/'+name+'?revision='+(expected||Date.now()),{cache:'no-store'});
+  if(!response.ok)throw Error(`${name}: HTTP ${response.status}`);
+  const bytes=await response.arrayBuffer();
+  if(expected){
+    const digest=await crypto.subtle.digest('SHA-256',bytes);
+    const actual=Array.from(new Uint8Array(digest),x=>x.toString(16).padStart(2,'0')).join('');
+    if(actual!==expected)throw Error(`Evidence hash mismatch: ${name}. Refresh after deployment completes.`);
+  }
+  const value=new TextDecoder().decode(bytes);
+  return asText?value:JSON.parse(value);
 }
 async function load(){
   try{
+    manifest=await get('manifest.json');
+    if(manifest.station!=='AM.R19BB.00')throw Error('Manifest station identity mismatch');
     const [status,s,e,sourceDoc,audit,reference,csv]=await Promise.all([get('status.json'),get('summary.json'),get('events.json'),get('sources.json'),get('ingestion-audit.json'),get('reference-audit.json'),get('observations.csv',true)]);
     if([status,s,e,sourceDoc,audit,reference].some(d=>d.station!=='AM.R19BB.00'))throw Error('Station identity mismatch');
     if(status.method!==s.method||s.method!=='detroit-welch-8s-50pct-mean-band-v2')throw Error('Analysis method mismatch');
