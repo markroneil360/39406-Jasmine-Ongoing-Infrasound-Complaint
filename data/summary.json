@@ -1,7 +1,7 @@
 {
   "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
-  "generated_utc": "2026-10-18T11:00:32.031481Z",
+  "generated_utc": "2026-10-19T11:08:26.102636Z",
   "windows": {
     "all": {
       "start": "2026-10-10T01:31:00Z",
@@ -81,17 +81,17 @@
       }
     },
     "24h": {
-      "start": "2026-10-17T11:00:00Z",
-      "end": "2026-10-18T11:00:00Z",
+      "start": "2026-10-18T11:08:00Z",
+      "end": "2026-10-19T11:08:00Z",
       "channels": {
         "HDF": {
-          "documented_seconds": 93.26,
+          "documented_seconds": 0.0,
           "classified_minutes": 0,
-          "partial_minutes": 2,
+          "partial_minutes": 0,
           "flatline_minutes": 0,
-          "missing_seconds": 86306.74,
-          "classified_share_pct": 0.0,
-          "sample_coverage_pct": 0.1079,
+          "missing_seconds": 86400.0,
+          "classified_share_pct": null,
+          "sample_coverage_pct": 0.0,
           "band_counts": {
             "1-4": 0,
             "4-8": 0,
@@ -106,13 +106,13 @@
           }
         },
         "EHZ": {
-          "documented_seconds": 72.12,
+          "documented_seconds": 0.0,
           "classified_minutes": 0,
-          "partial_minutes": 2,
+          "partial_minutes": 0,
           "flatline_minutes": 0,
-          "missing_seconds": 86327.88,
-          "classified_share_pct": 0.0,
-          "sample_coverage_pct": 0.0835,
+          "missing_seconds": 86400.0,
+          "classified_share_pct": null,
+          "sample_coverage_pct": 0.0,
           "band_counts": {
             "1-4": 0,
             "4-8": 0,
@@ -138,78 +138,68 @@
       }
     },
     "7d": {
-      "start": "2026-10-11T11:00:00Z",
-      "end": "2026-10-18T11:00:00Z",
+      "start": "2026-10-12T11:08:00Z",
+      "end": "2026-10-19T11:08:00Z",
       "channels": {
         "HDF": {
-          "documented_seconds": 445247.39,
-          "classified_minutes": 7362,
-          "partial_minutes": 90,
+          "documented_seconds": 358799.54,
+          "classified_minutes": 5922,
+          "partial_minutes": 88,
           "flatline_minutes": 0,
-          "missing_seconds": 159552.61,
-          "classified_share_pct": 99.2078,
-          "sample_coverage_pct": 73.6189,
+          "missing_seconds": 246000.46,
+          "classified_share_pct": 99.0302,
+          "sample_coverage_pct": 59.3253,
           "band_counts": {
-            "1-4": 7343,
-            "4-8": 19,
+            "1-4": 5922,
+            "4-8": 0,
             "8-16": 0,
             "16-20": 0
           },
           "band_share_pct": {
-            "1-4": 99.7419,
-            "4-8": 0.2581,
+            "1-4": 100.0,
+            "4-8": 0.0,
             "8-16": 0.0,
             "16-20": 0.0
           }
         },
         "EHZ": {
-          "documented_seconds": 445237.17,
-          "classified_minutes": 7364,
-          "partial_minutes": 88,
+          "documented_seconds": 358786.37,
+          "classified_minutes": 5926,
+          "partial_minutes": 84,
           "flatline_minutes": 0,
-          "missing_seconds": 159562.83,
-          "classified_share_pct": 99.237,
-          "sample_coverage_pct": 73.6173,
+          "missing_seconds": 246013.63,
+          "classified_share_pct": 99.1008,
+          "sample_coverage_pct": 59.3231,
           "band_counts": {
-            "1-4": 85,
-            "4-8": 48,
-            "8-16": 795,
-            "16-20": 6436
+            "1-4": 83,
+            "4-8": 39,
+            "8-16": 218,
+            "16-20": 5586
           },
           "band_share_pct": {
-            "1-4": 1.1543,
-            "4-8": 0.6518,
-            "8-16": 10.7958,
-            "16-20": 87.3982
+            "1-4": 1.4006,
+            "4-8": 0.6581,
+            "8-16": 3.6787,
+            "16-20": 94.2626
           }
         }
       },
       "narrow": {
-        "events_ge_10": 1,
-        "minutes_ge_10": 10,
-        "longest": {
-          "start_utc": "2026-10-11T20:21:00Z",
-          "end_exclusive_utc": "2026-10-11T20:31:00Z",
-          "minutes": 10,
-          "peak_min_hz": 5.0,
-          "peak_max_hz": 5.125,
-          "peak_median_hz": 5.125,
-          "dominant_bands": {
-            "4-8": 10
-          }
-        }
+        "events_ge_10": 0,
+        "minutes_ge_10": 0,
+        "longest": null
       },
       "wide": {
-        "events_ge_10": 9,
+        "events_ge_10": 8,
         "longest": {
-          "start_utc": "2026-10-11T20:51:00Z",
+          "start_utc": "2026-10-12T11:08:00Z",
           "end_exclusive_utc": "2026-10-14T21:41:00Z",
-          "minutes": 4370,
+          "minutes": 3513,
           "peak_min_hz": 1.0,
           "peak_max_hz": 3.125,
           "peak_median_hz": 1.125,
           "dominant_bands": {
-            "1-4": 4370
+            "1-4": 3513
           }
         }
       }
