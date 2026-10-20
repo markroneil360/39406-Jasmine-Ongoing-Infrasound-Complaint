@@ -1,20 +1,20 @@
 {
   "state": "Public feed unavailable \u00b7 archive retained",
   "note": "A feed check is not live connectivity. Verified uploaded history is retained even when the public feed is unavailable.",
-  "request_start": "2026-10-18T10:38:00Z",
-  "request_end": "2026-10-19T10:38:00Z",
-  "feed_attempt_utc": "2026-10-19T11:08:24.895745Z",
+  "request_start": "2026-10-19T10:38:00Z",
+  "request_end": "2026-10-20T10:38:00Z",
+  "feed_attempt_utc": "2026-10-20T11:08:30.612903Z",
   "channels": [
     {
       "channel": "HDF",
-      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=HDF&start=2026-10-18T10:38:00Z&end=2026-10-19T10:38:00Z&format=miniseed",
+      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=HDF&start=2026-10-19T10:38:00Z&end=2026-10-20T10:38:00Z&format=miniseed",
       "complete_minutes": 0,
       "latest_sample_utc": null,
       "error": "No data returned (HTTP 204)"
     },
     {
       "channel": "EHZ",
-      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=EHZ&start=2026-10-18T10:38:00Z&end=2026-10-19T10:38:00Z&format=miniseed",
+      "source_url": "https://data.raspberryshake.org/fdsnws/dataselect/1/query?net=AM&sta=R19BB&loc=00&cha=EHZ&start=2026-10-19T10:38:00Z&end=2026-10-20T10:38:00Z&format=miniseed",
       "complete_minutes": 0,
       "latest_sample_utc": null,
       "error": "No data returned (HTTP 204)"
@@ -23,7 +23,7 @@
   "last_ingestion_kind": "public-fdsn",
   "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
-  "generated_utc": "2026-10-19T11:08:26.102636Z",
+  "generated_utc": "2026-10-20T11:08:31.880800Z",
   "archive_start_utc": "2026-10-10T01:31:00Z",
   "archive_end_exclusive_utc": "2026-10-17T23:06:00Z",
   "latest_documented_samples": {
