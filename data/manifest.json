@@ -1,7 +1,7 @@
 {
   "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
-  "generated_utc": "2026-10-21T11:08:50.983477Z",
+  "generated_utc": "2026-10-22T11:09:11.237604Z",
   "numpy_version": "1.26.4",
   "scipy_version": "1.14.1",
   "files": {
@@ -12,7 +12,7 @@
     "observations.csv": "0fe20ce30a5225ce86b99e1424904e8c08c3eb6592ed3a288af43a5827b2b712",
     "reference-audit.json": "50e049d1b7503d110f9ef54c8c7fc42817906e9e03b02ab4eaec3400a207a282",
     "sources.json": "c067ac304b8e325378c4a4ebb34fe9b67f99fea63826ba518e8ee448e7dd6955",
-    "status.json": "9db118f5205fbc1791ddd444abccb6473781cdb7d55899f163d91a65449035f4",
-    "summary.json": "34cd995f31e129755c96f7a1b12d3375c15d032363e434c3fd81d3a94ff80706"
+    "status.json": "6151e75aa1dba4a6b3513e5ce26c47413303dbfb2ce119c6194cb79201bb959c",
+    "summary.json": "c95c593413cff23fba8cdb8b38df1efc88c1d2b1c0eff483ac558c5d02f80a8f"
   }
 }
