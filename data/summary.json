@@ -1,7 +1,7 @@
 {
   "station": "AM.R19BB.00",
   "method": "detroit-welch-8s-50pct-mean-band-v2",
-  "generated_utc": "2026-11-15T12:08:17.289385Z",
+  "generated_utc": "2026-11-16T12:08:23.859940Z",
   "windows": {
     "all": {
       "start": "2026-10-10T01:31:00Z",
@@ -81,8 +81,8 @@
       }
     },
     "24h": {
-      "start": "2026-11-14T12:08:00Z",
-      "end": "2026-11-15T12:08:00Z",
+      "start": "2026-11-15T12:08:00Z",
+      "end": "2026-11-16T12:08:00Z",
       "channels": {
         "HDF": {
           "documented_seconds": 0.0,
@@ -138,8 +138,8 @@
       }
     },
     "7d": {
-      "start": "2026-11-08T12:08:00Z",
-      "end": "2026-11-15T12:08:00Z",
+      "start": "2026-11-09T12:08:00Z",
+      "end": "2026-11-16T12:08:00Z",
       "channels": {
         "HDF": {
           "documented_seconds": 0.0,
